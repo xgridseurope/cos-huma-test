@@ -1,0 +1,7430 @@
+{
+ "url": "http://127.0.0.1:4140/3d/",
+ "when": "2026-11-08T12:36:43.107Z",
+ "env": "headless Chrome, SwiftShader, emulated viewports",
+ "results": {
+  "android": {
+   "errors": [],
+   "meshInfo": [
+    {
+     "key": "altres",
+     "side": "C",
+     "structures": [
+      "hyoid-bone"
+     ]
+    },
+    {
+     "key": "cara",
+     "side": "C",
+     "structures": [
+      "right-nasal-bone",
+      "right-lacrimal-bone",
+      "right-zygomatic-bone",
+      "right-maxilla",
+      "right-palatine-bone",
+      "right-inferior-nasal-concha",
+      "left-nasal-bone",
+      "left-lacrimal-bone",
+      "left-zygomatic-bone",
+      "left-maxilla",
+      "left-palatine-bone",
+      "left-inferior-nasal-concha",
+      "vomer"
+     ]
+    },
+    {
+     "key": "carp",
+     "side": "L",
+     "structures": [
+      "left-scaphoid",
+      "left-lunate",
+      "left-triquetral",
+      "left-pisiform",
+      "left-trapezium",
+      "left-trapezoid",
+      "left-capitate",
+      "left-hamate"
+     ]
+    },
+    {
+     "key": "carp",
+     "side": "R",
+     "structures": [
+      "right-scaphoid",
+      "right-lunate",
+      "right-triquetral",
+      "right-pisiform",
+      "right-trapezium",
+      "right-trapezoid",
+      "right-capitate",
+      "right-hamate"
+     ]
+    },
+    {
+     "key": "clavicula",
+     "side": "L",
+     "structures": [
+      "left-clavicle"
+     ]
+    },
+    {
+     "key": "clavicula",
+     "side": "R",
+     "structures": [
+      "right-clavicle"
+     ]
+    },
+    {
+     "key": "columna",
+     "side": "C",
+     "structures": [
+      "atlas-c1",
+      "axis-c2",
+      "third-cervical-vertebra-c3",
+      "fourth-cervical-vertebra-c4",
+      "fifth-cervical-vertebra-c5",
+      "sixth-cervical-vertebra-c6",
+      "seventh-cervical-vertebra-c7",
+      "first-thoracic-vertebra-t1",
+      "second-thoracic-vertebra-t2",
+      "third-thoracic-vertebra-t3",
+      "fourth-thoracic-vertebra-t4",
+      "fifth-thoracic-vertebra-t5",
+      "sixth-thoracic-vertebra-t6",
+      "seventh-thoracic-vertebra-t7",
+      "eighth-thoracic-vertebra-t8",
+      "ninth-thoracic-vertebra-t9",
+      "tenth-thoracic-vertebra-t10",
+      "eleventh-thoracic-vertebra-t11",
+      "twelfth-thoracic-vertebra-t12",
+      "second-lumbar-vertebra-l2",
+      "third-lumbar-vertebra-l3",
+      "fourth-lumbar-vertebra-l4",
+      "fifth-lumbar-vertebra-l5",
+      "sacrum",
+      "intervertebral-disc-c2-c3",
+      "intervertebral-disc-c3-c4",
+      "intervertebral-disc-c4-c5",
+      "intervertebral-disc-c5-c6",
+      "intervertebral-disc-c6-c7",
+      "intervertebral-disc-c7-t1",
+      "intervertebral-disc-t1-t2",
+      "intervertebral-disc-t2-t3",
+      "intervertebral-disc-t3-t4",
+      "intervertebral-disc-t4-t5",
+      "intervertebral-disc-t5-t6",
+      "intervertebral-disc-t6-t7",
+      "intervertebral-disc-t7-t8",
+      "intervertebral-disc-t8-t9",
+      "intervertebral-disc-t9-t10",
+      "intervertebral-disc-t10-t11",
+      "intervertebral-disc-t11-t12",
+      "intervertebral-disc-t12-l1",
+      "intervertebral-disc-l1-l2",
+      "intervertebral-disc-l2-l3",
+      "intervertebral-disc-l3-l4",
+      "intervertebral-disc-l4-l5",
+      "intervertebral-disc-l5-s1"
+     ]
+    },
+    {
+     "key": "costella",
+     "side": "L",
+     "structures": [
+      "left-first-rib",
+      "left-second-rib",
+      "left-third-rib",
+      "left-fourth-rib",
+      "left-fifth-rib",
+      "left-sixth-rib",
+      "left-seventh-rib",
+      "left-eighth-rib",
+      "left-ninth-rib",
+      "left-tenth-rib",
+      "left-eleventh-rib",
+      "left-twelfth-rib",
+      "left-first-costal-cartilage",
+      "left-second-costal-cartilage",
+      "left-third-costal-cartilage",
+      "left-fourth-costal-cartilage",
+      "left-fifth-costal-cartilage",
+      "left-sixth-costal-cartilage",
+      "left-seventh-costal-cartilage",
+      "left-lower-costal-cartilages"
+     ]
+    },
+    {
+     "key": "costella",
+     "side": "R",
+     "structures": [
+      "right-first-rib",
+      "right-second-rib",
+      "right-third-rib",
+      "right-fourth-rib",
+      "right-fifth-rib",
+      "right-sixth-rib",
+      "right-seventh-rib",
+      "right-eighth-rib",
+      "right-ninth-rib",
+      "right-tenth-rib",
+      "right-eleventh-rib",
+      "right-twelfth-rib",
+      "right-first-costal-cartilage",
+      "right-second-costal-cartilage",
+      "right-third-costal-cartilage",
+      "right-fourth-costal-cartilage",
+      "right-fifth-costal-cartilage",
+      "right-sixth-costal-cartilage",
+      "right-seventh-costal-cartilage",
+      "right-lower-costal-cartilages"
+     ]
+    },
+    {
+     "key": "crani",
+     "side": "C",
+     "structures": [
+      "frontal-bone",
+      "right-parietal-bone",
+      "left-parietal-bone",
+      "occipital-bone",
+      "right-temporal-bone",
+      "left-temporal-bone",
+      "sphenoid-bone",
+      "ethmoid-bone"
+     ]
+    },
+    {
+     "key": "cubit",
+     "side": "L",
+     "structures": [
+      "left-ulna"
+     ]
+    },
+    {
+     "key": "cubit",
+     "side": "R",
+     "structures": [
+      "right-ulna"
+     ]
+    },
+    {
+     "key": "estern",
+     "side": "C",
+     "structures": [
+      "manubrium-of-sternum",
+      "body-of-sternum",
+      "xiphoid-process"
+     ]
+    },
+    {
+     "key": "falma",
+     "side": "L",
+     "structures": [
+      "left-thumb-proximal-phalanx",
+      "left-index-finger-proximal-phalanx",
+      "left-middle-finger-proximal-phalanx",
+      "left-ring-finger-proximal-phalanx",
+      "left-little-finger-proximal-phalanx",
+      "left-index-finger-middle-phalanx",
+      "left-middle-finger-middle-phalanx",
+      "left-ring-finger-middle-phalanx",
+      "left-little-finger-middle-phalanx",
+      "left-thumb-distal-phalanx",
+      "left-index-finger-distal-phalanx",
+      "left-middle-finger-distal-phalanx",
+      "left-ring-finger-distal-phalanx",
+      "left-little-finger-distal-phalanx"
+     ]
+    },
+    {
+     "key": "falma",
+     "side": "R",
+     "structures": [
+      "right-thumb-proximal-phalanx",
+      "right-index-finger-proximal-phalanx",
+      "right-middle-finger-proximal-phalanx",
+      "right-ring-finger-proximal-phalanx",
+      "right-little-finger-proximal-phalanx",
+      "right-index-finger-middle-phalanx",
+      "right-middle-finger-middle-phalanx",
+      "right-ring-finger-middle-phalanx",
+      "right-little-finger-middle-phalanx",
+      "right-thumb-distal-phalanx",
+      "right-index-finger-distal-phalanx",
+      "right-middle-finger-distal-phalanx",
+      "right-ring-finger-distal-phalanx",
+      "right-little-finger-distal-phalanx"
+     ]
+    },
+    {
+     "key": "femur",
+     "side": "L",
+     "structures": [
+      "left-femur"
+     ]
+    },
+    {
+     "key": "femur",
+     "side": "R",
+     "structures": [
+      "right-femur"
+     ]
+    },
+    {
+     "key": "fpeu",
+     "side": "L",
+     "structures": [
+      "left-big-toe-proximal-phalanx",
+      "left-second-toe-proximal-phalanx",
+      "left-third-toe-proximal-phalanx",
+      "left-fourth-toe-proximal-phalanx",
+      "left-little-toe-proximal-phalanx",
+      "left-second-toe-middle-phalanx",
+      "left-third-toe-middle-phalanx",
+      "left-fourth-toe-middle-phalanx",
+      "left-little-toe-middle-phalanx",
+      "left-big-toe-distal-phalanx",
+      "left-second-toe-distal-phalanx",
+      "left-third-toe-distal-phalanx",
+      "left-fourth-toe-distal-phalanx",
+      "left-little-toe-distal-phalanx",
+      "left-sesamoid-bones-of-the-foot"
+     ]
+    },
+    {
+     "key": "fpeu",
+     "side": "R",
+     "structures": [
+      "right-big-toe-proximal-phalanx",
+      "right-second-toe-proximal-phalanx",
+      "right-third-toe-proximal-phalanx",
+      "right-fourth-toe-proximal-phalanx",
+      "right-little-toe-proximal-phalanx",
+      "right-second-toe-middle-phalanx",
+      "right-third-toe-middle-phalanx",
+      "right-fourth-toe-middle-phalanx",
+      "right-little-toe-middle-phalanx",
+      "right-big-toe-distal-phalanx",
+      "right-second-toe-distal-phalanx",
+      "right-third-toe-distal-phalanx",
+      "right-fourth-toe-distal-phalanx",
+      "right-little-toe-distal-phalanx",
+      "right-sesamoid-bones-of-the-foot"
+     ]
+    },
+    {
+     "key": "humer",
+     "side": "L",
+     "structures": [
+      "left-humerus"
+     ]
+    },
+    {
+     "key": "humer",
+     "side": "R",
+     "structures": [
+      "right-humerus"
+     ]
+    },
+    {
+     "key": "maxillar",
+     "side": "C",
+     "structures": [
+      "mandible"
+     ]
+    },
+    {
+     "key": "metacarp",
+     "side": "L",
+     "structures": [
+      "left-first-metacarpal-bone",
+      "left-second-metacarpal-bone",
+      "left-third-metacarpal-bone",
+      "left-fourth-metacarpal-bone",
+      "left-fifth-metacarpal-bone"
+     ]
+    },
+    {
+     "key": "metacarp",
+     "side": "R",
+     "structures": [
+      "right-first-metacarpal-bone",
+      "right-second-metacarpal-bone",
+      "right-third-metacarpal-bone",
+      "right-fourth-metacarpal-bone",
+      "right-fifth-metacarpal-bone"
+     ]
+    },
+    {
+     "key": "metatars",
+     "side": "L",
+     "structures": [
+      "left-first-metatarsal-bone",
+      "left-second-metatarsal-bone",
+      "left-third-metatarsal-bone",
+      "left-fourth-metatarsal-bone",
+      "left-fifth-metatarsal-bone"
+     ]
+    },
+    {
+     "key": "metatars",
+     "side": "R",
+     "structures": [
+      "right-first-metatarsal-bone",
+      "right-second-metatarsal-bone",
+      "right-third-metatarsal-bone",
+      "right-fourth-metatarsal-bone",
+      "right-fifth-metatarsal-bone"
+     ]
+    },
+    {
+     "key": "omoplat",
+     "side": "L",
+     "structures": [
+      "left-scapula"
+     ]
+    },
+    {
+     "key": "omoplat",
+     "side": "R",
+     "structures": [
+      "right-scapula"
+     ]
+    },
+    {
+     "key": "pelvis",
+     "side": "L",
+     "structures": [
+      "left-hip-bone"
+     ]
+    },
+    {
+     "key": "pelvis",
+     "side": "R",
+     "structures": [
+      "right-hip-bone"
+     ]
+    },
+    {
+     "key": "perone",
+     "side": "L",
+     "structures": [
+      "left-fibula"
+     ]
+    },
+    {
+     "key": "perone",
+     "side": "R",
+     "structures": [
+      "right-fibula"
+     ]
+    },
+    {
+     "key": "radi",
+     "side": "L",
+     "structures": [
+      "left-radius"
+     ]
+    },
+    {
+     "key": "radi",
+     "side": "R",
+     "structures": [
+      "right-radius"
+     ]
+    },
+    {
+     "key": "rotula",
+     "side": "L",
+     "structures": [
+      "left-patella"
+     ]
+    },
+    {
+     "key": "rotula",
+     "side": "R",
+     "structures": [
+      "right-patella"
+     ]
+    },
+    {
+     "key": "tars",
+     "side": "L",
+     "structures": [
+      "left-talus",
+      "left-calcaneus",
+      "left-navicular",
+      "left-cuboid",
+      "left-medial-cuneiform",
+      "left-intermediate-cuneiform",
+      "left-lateral-cuneiform"
+     ]
+    },
+    {
+     "key": "tars",
+     "side": "R",
+     "structures": [
+      "right-talus",
+      "right-calcaneus",
+      "right-navicular",
+      "right-cuboid",
+      "right-medial-cuneiform",
+      "right-intermediate-cuneiform",
+      "right-lateral-cuneiform"
+     ]
+    },
+    {
+     "key": "tibia",
+     "side": "L",
+     "structures": [
+      "left-tibia"
+     ]
+    },
+    {
+     "key": "tibia",
+     "side": "R",
+     "structures": [
+      "right-tibia"
+     ]
+    },
+    {
+     "key": "vertebra",
+     "side": "C",
+     "structures": [
+      "first-lumbar-vertebra-l1"
+     ]
+    }
+   ],
+   "states": {
+    "front": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 138–389 px",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [
+        "metacarp"
+       ],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "back": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "humer",
+        "omoplat",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "cubit",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 133–389 px",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [
+        "metacarp"
+       ],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [
+        "tars"
+       ],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 18,
+      "hidden": 3,
+      "taps": 21
+     }
+    },
+    "front-50": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "cubit",
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 184–387 px",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "front-100": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 196–354 px",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "back-100": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 191–354 px",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 19,
+      "hidden": 2,
+      "taps": 21
+     }
+    },
+    "reassembled": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 138–389 px",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [
+        "metacarp"
+       ],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    }
+   }
+  },
+  "ipad": {
+   "errors": [],
+   "meshInfo": [
+    {
+     "key": "altres",
+     "side": "C",
+     "structures": [
+      "hyoid-bone"
+     ]
+    },
+    {
+     "key": "cara",
+     "side": "C",
+     "structures": [
+      "right-nasal-bone",
+      "right-lacrimal-bone",
+      "right-zygomatic-bone",
+      "right-maxilla",
+      "right-palatine-bone",
+      "right-inferior-nasal-concha",
+      "left-nasal-bone",
+      "left-lacrimal-bone",
+      "left-zygomatic-bone",
+      "left-maxilla",
+      "left-palatine-bone",
+      "left-inferior-nasal-concha",
+      "vomer"
+     ]
+    },
+    {
+     "key": "carp",
+     "side": "L",
+     "structures": [
+      "left-scaphoid",
+      "left-lunate",
+      "left-triquetral",
+      "left-pisiform",
+      "left-trapezium",
+      "left-trapezoid",
+      "left-capitate",
+      "left-hamate"
+     ]
+    },
+    {
+     "key": "carp",
+     "side": "R",
+     "structures": [
+      "right-scaphoid",
+      "right-lunate",
+      "right-triquetral",
+      "right-pisiform",
+      "right-trapezium",
+      "right-trapezoid",
+      "right-capitate",
+      "right-hamate"
+     ]
+    },
+    {
+     "key": "clavicula",
+     "side": "L",
+     "structures": [
+      "left-clavicle"
+     ]
+    },
+    {
+     "key": "clavicula",
+     "side": "R",
+     "structures": [
+      "right-clavicle"
+     ]
+    },
+    {
+     "key": "columna",
+     "side": "C",
+     "structures": [
+      "atlas-c1",
+      "axis-c2",
+      "third-cervical-vertebra-c3",
+      "fourth-cervical-vertebra-c4",
+      "fifth-cervical-vertebra-c5",
+      "sixth-cervical-vertebra-c6",
+      "seventh-cervical-vertebra-c7",
+      "first-thoracic-vertebra-t1",
+      "second-thoracic-vertebra-t2",
+      "third-thoracic-vertebra-t3",
+      "fourth-thoracic-vertebra-t4",
+      "fifth-thoracic-vertebra-t5",
+      "sixth-thoracic-vertebra-t6",
+      "seventh-thoracic-vertebra-t7",
+      "eighth-thoracic-vertebra-t8",
+      "ninth-thoracic-vertebra-t9",
+      "tenth-thoracic-vertebra-t10",
+      "eleventh-thoracic-vertebra-t11",
+      "twelfth-thoracic-vertebra-t12",
+      "second-lumbar-vertebra-l2",
+      "third-lumbar-vertebra-l3",
+      "fourth-lumbar-vertebra-l4",
+      "fifth-lumbar-vertebra-l5",
+      "sacrum",
+      "intervertebral-disc-c2-c3",
+      "intervertebral-disc-c3-c4",
+      "intervertebral-disc-c4-c5",
+      "intervertebral-disc-c5-c6",
+      "intervertebral-disc-c6-c7",
+      "intervertebral-disc-c7-t1",
+      "intervertebral-disc-t1-t2",
+      "intervertebral-disc-t2-t3",
+      "intervertebral-disc-t3-t4",
+      "intervertebral-disc-t4-t5",
+      "intervertebral-disc-t5-t6",
+      "intervertebral-disc-t6-t7",
+      "intervertebral-disc-t7-t8",
+      "intervertebral-disc-t8-t9",
+      "intervertebral-disc-t9-t10",
+      "intervertebral-disc-t10-t11",
+      "intervertebral-disc-t11-t12",
+      "intervertebral-disc-t12-l1",
+      "intervertebral-disc-l1-l2",
+      "intervertebral-disc-l2-l3",
+      "intervertebral-disc-l3-l4",
+      "intervertebral-disc-l4-l5",
+      "intervertebral-disc-l5-s1"
+     ]
+    },
+    {
+     "key": "costella",
+     "side": "L",
+     "structures": [
+      "left-first-rib",
+      "left-second-rib",
+      "left-third-rib",
+      "left-fourth-rib",
+      "left-fifth-rib",
+      "left-sixth-rib",
+      "left-seventh-rib",
+      "left-eighth-rib",
+      "left-ninth-rib",
+      "left-tenth-rib",
+      "left-eleventh-rib",
+      "left-twelfth-rib",
+      "left-first-costal-cartilage",
+      "left-second-costal-cartilage",
+      "left-third-costal-cartilage",
+      "left-fourth-costal-cartilage",
+      "left-fifth-costal-cartilage",
+      "left-sixth-costal-cartilage",
+      "left-seventh-costal-cartilage",
+      "left-lower-costal-cartilages"
+     ]
+    },
+    {
+     "key": "costella",
+     "side": "R",
+     "structures": [
+      "right-first-rib",
+      "right-second-rib",
+      "right-third-rib",
+      "right-fourth-rib",
+      "right-fifth-rib",
+      "right-sixth-rib",
+      "right-seventh-rib",
+      "right-eighth-rib",
+      "right-ninth-rib",
+      "right-tenth-rib",
+      "right-eleventh-rib",
+      "right-twelfth-rib",
+      "right-first-costal-cartilage",
+      "right-second-costal-cartilage",
+      "right-third-costal-cartilage",
+      "right-fourth-costal-cartilage",
+      "right-fifth-costal-cartilage",
+      "right-sixth-costal-cartilage",
+      "right-seventh-costal-cartilage",
+      "right-lower-costal-cartilages"
+     ]
+    },
+    {
+     "key": "crani",
+     "side": "C",
+     "structures": [
+      "frontal-bone",
+      "right-parietal-bone",
+      "left-parietal-bone",
+      "occipital-bone",
+      "right-temporal-bone",
+      "left-temporal-bone",
+      "sphenoid-bone",
+      "ethmoid-bone"
+     ]
+    },
+    {
+     "key": "cubit",
+     "side": "L",
+     "structures": [
+      "left-ulna"
+     ]
+    },
+    {
+     "key": "cubit",
+     "side": "R",
+     "structures": [
+      "right-ulna"
+     ]
+    },
+    {
+     "key": "estern",
+     "side": "C",
+     "structures": [
+      "manubrium-of-sternum",
+      "body-of-sternum",
+      "xiphoid-process"
+     ]
+    },
+    {
+     "key": "falma",
+     "side": "L",
+     "structures": [
+      "left-thumb-proximal-phalanx",
+      "left-index-finger-proximal-phalanx",
+      "left-middle-finger-proximal-phalanx",
+      "left-ring-finger-proximal-phalanx",
+      "left-little-finger-proximal-phalanx",
+      "left-index-finger-middle-phalanx",
+      "left-middle-finger-middle-phalanx",
+      "left-ring-finger-middle-phalanx",
+      "left-little-finger-middle-phalanx",
+      "left-thumb-distal-phalanx",
+      "left-index-finger-distal-phalanx",
+      "left-middle-finger-distal-phalanx",
+      "left-ring-finger-distal-phalanx",
+      "left-little-finger-distal-phalanx"
+     ]
+    },
+    {
+     "key": "falma",
+     "side": "R",
+     "structures": [
+      "right-thumb-proximal-phalanx",
+      "right-index-finger-proximal-phalanx",
+      "right-middle-finger-proximal-phalanx",
+      "right-ring-finger-proximal-phalanx",
+      "right-little-finger-proximal-phalanx",
+      "right-index-finger-middle-phalanx",
+      "right-middle-finger-middle-phalanx",
+      "right-ring-finger-middle-phalanx",
+      "right-little-finger-middle-phalanx",
+      "right-thumb-distal-phalanx",
+      "right-index-finger-distal-phalanx",
+      "right-middle-finger-distal-phalanx",
+      "right-ring-finger-distal-phalanx",
+      "right-little-finger-distal-phalanx"
+     ]
+    },
+    {
+     "key": "femur",
+     "side": "L",
+     "structures": [
+      "left-femur"
+     ]
+    },
+    {
+     "key": "femur",
+     "side": "R",
+     "structures": [
+      "right-femur"
+     ]
+    },
+    {
+     "key": "fpeu",
+     "side": "L",
+     "structures": [
+      "left-big-toe-proximal-phalanx",
+      "left-second-toe-proximal-phalanx",
+      "left-third-toe-proximal-phalanx",
+      "left-fourth-toe-proximal-phalanx",
+      "left-little-toe-proximal-phalanx",
+      "left-second-toe-middle-phalanx",
+      "left-third-toe-middle-phalanx",
+      "left-fourth-toe-middle-phalanx",
+      "left-little-toe-middle-phalanx",
+      "left-big-toe-distal-phalanx",
+      "left-second-toe-distal-phalanx",
+      "left-third-toe-distal-phalanx",
+      "left-fourth-toe-distal-phalanx",
+      "left-little-toe-distal-phalanx",
+      "left-sesamoid-bones-of-the-foot"
+     ]
+    },
+    {
+     "key": "fpeu",
+     "side": "R",
+     "structures": [
+      "right-big-toe-proximal-phalanx",
+      "right-second-toe-proximal-phalanx",
+      "right-third-toe-proximal-phalanx",
+      "right-fourth-toe-proximal-phalanx",
+      "right-little-toe-proximal-phalanx",
+      "right-second-toe-middle-phalanx",
+      "right-third-toe-middle-phalanx",
+      "right-fourth-toe-middle-phalanx",
+      "right-little-toe-middle-phalanx",
+      "right-big-toe-distal-phalanx",
+      "right-second-toe-distal-phalanx",
+      "right-third-toe-distal-phalanx",
+      "right-fourth-toe-distal-phalanx",
+      "right-little-toe-distal-phalanx",
+      "right-sesamoid-bones-of-the-foot"
+     ]
+    },
+    {
+     "key": "humer",
+     "side": "L",
+     "structures": [
+      "left-humerus"
+     ]
+    },
+    {
+     "key": "humer",
+     "side": "R",
+     "structures": [
+      "right-humerus"
+     ]
+    },
+    {
+     "key": "maxillar",
+     "side": "C",
+     "structures": [
+      "mandible"
+     ]
+    },
+    {
+     "key": "metacarp",
+     "side": "L",
+     "structures": [
+      "left-first-metacarpal-bone",
+      "left-second-metacarpal-bone",
+      "left-third-metacarpal-bone",
+      "left-fourth-metacarpal-bone",
+      "left-fifth-metacarpal-bone"
+     ]
+    },
+    {
+     "key": "metacarp",
+     "side": "R",
+     "structures": [
+      "right-first-metacarpal-bone",
+      "right-second-metacarpal-bone",
+      "right-third-metacarpal-bone",
+      "right-fourth-metacarpal-bone",
+      "right-fifth-metacarpal-bone"
+     ]
+    },
+    {
+     "key": "metatars",
+     "side": "L",
+     "structures": [
+      "left-first-metatarsal-bone",
+      "left-second-metatarsal-bone",
+      "left-third-metatarsal-bone",
+      "left-fourth-metatarsal-bone",
+      "left-fifth-metatarsal-bone"
+     ]
+    },
+    {
+     "key": "metatars",
+     "side": "R",
+     "structures": [
+      "right-first-metatarsal-bone",
+      "right-second-metatarsal-bone",
+      "right-third-metatarsal-bone",
+      "right-fourth-metatarsal-bone",
+      "right-fifth-metatarsal-bone"
+     ]
+    },
+    {
+     "key": "omoplat",
+     "side": "L",
+     "structures": [
+      "left-scapula"
+     ]
+    },
+    {
+     "key": "omoplat",
+     "side": "R",
+     "structures": [
+      "right-scapula"
+     ]
+    },
+    {
+     "key": "pelvis",
+     "side": "L",
+     "structures": [
+      "left-hip-bone"
+     ]
+    },
+    {
+     "key": "pelvis",
+     "side": "R",
+     "structures": [
+      "right-hip-bone"
+     ]
+    },
+    {
+     "key": "perone",
+     "side": "L",
+     "structures": [
+      "left-fibula"
+     ]
+    },
+    {
+     "key": "perone",
+     "side": "R",
+     "structures": [
+      "right-fibula"
+     ]
+    },
+    {
+     "key": "radi",
+     "side": "L",
+     "structures": [
+      "left-radius"
+     ]
+    },
+    {
+     "key": "radi",
+     "side": "R",
+     "structures": [
+      "right-radius"
+     ]
+    },
+    {
+     "key": "rotula",
+     "side": "L",
+     "structures": [
+      "left-patella"
+     ]
+    },
+    {
+     "key": "rotula",
+     "side": "R",
+     "structures": [
+      "right-patella"
+     ]
+    },
+    {
+     "key": "tars",
+     "side": "L",
+     "structures": [
+      "left-talus",
+      "left-calcaneus",
+      "left-navicular",
+      "left-cuboid",
+      "left-medial-cuneiform",
+      "left-intermediate-cuneiform",
+      "left-lateral-cuneiform"
+     ]
+    },
+    {
+     "key": "tars",
+     "side": "R",
+     "structures": [
+      "right-talus",
+      "right-calcaneus",
+      "right-navicular",
+      "right-cuboid",
+      "right-medial-cuneiform",
+      "right-intermediate-cuneiform",
+      "right-lateral-cuneiform"
+     ]
+    },
+    {
+     "key": "tibia",
+     "side": "L",
+     "structures": [
+      "left-tibia"
+     ]
+    },
+    {
+     "key": "tibia",
+     "side": "R",
+     "structures": [
+      "right-tibia"
+     ]
+    },
+    {
+     "key": "vertebra",
+     "side": "C",
+     "structures": [
+      "first-lumbar-vertebra-l1"
+     ]
+    }
+   ],
+   "states": {
+    "front": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella",
+        "omoplat",
+        "columna"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 180–566 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [
+        "metacarp"
+       ],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "back": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "columna"
+       ],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella",
+        "omoplat"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "cubit",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 171–565 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [
+        "femur"
+       ],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [
+        "fpeu"
+       ],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 19,
+      "hidden": 2,
+      "taps": 21
+     }
+    },
+    "front-50": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "cubit",
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 238–563 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [
+        "femur"
+       ],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "front-100": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella",
+        "columna"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 263–510 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "back-100": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 253–511 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 20,
+      "hidden": 1,
+      "taps": 21
+     }
+    },
+    "reassembled": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella",
+        "omoplat",
+        "columna"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 180–566 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [
+        "metacarp"
+       ],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    }
+   }
+  },
+  "desktop": {
+   "errors": [],
+   "meshInfo": [
+    {
+     "key": "altres",
+     "side": "C",
+     "structures": [
+      "hyoid-bone"
+     ]
+    },
+    {
+     "key": "cara",
+     "side": "C",
+     "structures": [
+      "right-nasal-bone",
+      "right-lacrimal-bone",
+      "right-zygomatic-bone",
+      "right-maxilla",
+      "right-palatine-bone",
+      "right-inferior-nasal-concha",
+      "left-nasal-bone",
+      "left-lacrimal-bone",
+      "left-zygomatic-bone",
+      "left-maxilla",
+      "left-palatine-bone",
+      "left-inferior-nasal-concha",
+      "vomer"
+     ]
+    },
+    {
+     "key": "carp",
+     "side": "L",
+     "structures": [
+      "left-scaphoid",
+      "left-lunate",
+      "left-triquetral",
+      "left-pisiform",
+      "left-trapezium",
+      "left-trapezoid",
+      "left-capitate",
+      "left-hamate"
+     ]
+    },
+    {
+     "key": "carp",
+     "side": "R",
+     "structures": [
+      "right-scaphoid",
+      "right-lunate",
+      "right-triquetral",
+      "right-pisiform",
+      "right-trapezium",
+      "right-trapezoid",
+      "right-capitate",
+      "right-hamate"
+     ]
+    },
+    {
+     "key": "clavicula",
+     "side": "L",
+     "structures": [
+      "left-clavicle"
+     ]
+    },
+    {
+     "key": "clavicula",
+     "side": "R",
+     "structures": [
+      "right-clavicle"
+     ]
+    },
+    {
+     "key": "columna",
+     "side": "C",
+     "structures": [
+      "atlas-c1",
+      "axis-c2",
+      "third-cervical-vertebra-c3",
+      "fourth-cervical-vertebra-c4",
+      "fifth-cervical-vertebra-c5",
+      "sixth-cervical-vertebra-c6",
+      "seventh-cervical-vertebra-c7",
+      "first-thoracic-vertebra-t1",
+      "second-thoracic-vertebra-t2",
+      "third-thoracic-vertebra-t3",
+      "fourth-thoracic-vertebra-t4",
+      "fifth-thoracic-vertebra-t5",
+      "sixth-thoracic-vertebra-t6",
+      "seventh-thoracic-vertebra-t7",
+      "eighth-thoracic-vertebra-t8",
+      "ninth-thoracic-vertebra-t9",
+      "tenth-thoracic-vertebra-t10",
+      "eleventh-thoracic-vertebra-t11",
+      "twelfth-thoracic-vertebra-t12",
+      "second-lumbar-vertebra-l2",
+      "third-lumbar-vertebra-l3",
+      "fourth-lumbar-vertebra-l4",
+      "fifth-lumbar-vertebra-l5",
+      "sacrum",
+      "intervertebral-disc-c2-c3",
+      "intervertebral-disc-c3-c4",
+      "intervertebral-disc-c4-c5",
+      "intervertebral-disc-c5-c6",
+      "intervertebral-disc-c6-c7",
+      "intervertebral-disc-c7-t1",
+      "intervertebral-disc-t1-t2",
+      "intervertebral-disc-t2-t3",
+      "intervertebral-disc-t3-t4",
+      "intervertebral-disc-t4-t5",
+      "intervertebral-disc-t5-t6",
+      "intervertebral-disc-t6-t7",
+      "intervertebral-disc-t7-t8",
+      "intervertebral-disc-t8-t9",
+      "intervertebral-disc-t9-t10",
+      "intervertebral-disc-t10-t11",
+      "intervertebral-disc-t11-t12",
+      "intervertebral-disc-t12-l1",
+      "intervertebral-disc-l1-l2",
+      "intervertebral-disc-l2-l3",
+      "intervertebral-disc-l3-l4",
+      "intervertebral-disc-l4-l5",
+      "intervertebral-disc-l5-s1"
+     ]
+    },
+    {
+     "key": "costella",
+     "side": "L",
+     "structures": [
+      "left-first-rib",
+      "left-second-rib",
+      "left-third-rib",
+      "left-fourth-rib",
+      "left-fifth-rib",
+      "left-sixth-rib",
+      "left-seventh-rib",
+      "left-eighth-rib",
+      "left-ninth-rib",
+      "left-tenth-rib",
+      "left-eleventh-rib",
+      "left-twelfth-rib",
+      "left-first-costal-cartilage",
+      "left-second-costal-cartilage",
+      "left-third-costal-cartilage",
+      "left-fourth-costal-cartilage",
+      "left-fifth-costal-cartilage",
+      "left-sixth-costal-cartilage",
+      "left-seventh-costal-cartilage",
+      "left-lower-costal-cartilages"
+     ]
+    },
+    {
+     "key": "costella",
+     "side": "R",
+     "structures": [
+      "right-first-rib",
+      "right-second-rib",
+      "right-third-rib",
+      "right-fourth-rib",
+      "right-fifth-rib",
+      "right-sixth-rib",
+      "right-seventh-rib",
+      "right-eighth-rib",
+      "right-ninth-rib",
+      "right-tenth-rib",
+      "right-eleventh-rib",
+      "right-twelfth-rib",
+      "right-first-costal-cartilage",
+      "right-second-costal-cartilage",
+      "right-third-costal-cartilage",
+      "right-fourth-costal-cartilage",
+      "right-fifth-costal-cartilage",
+      "right-sixth-costal-cartilage",
+      "right-seventh-costal-cartilage",
+      "right-lower-costal-cartilages"
+     ]
+    },
+    {
+     "key": "crani",
+     "side": "C",
+     "structures": [
+      "frontal-bone",
+      "right-parietal-bone",
+      "left-parietal-bone",
+      "occipital-bone",
+      "right-temporal-bone",
+      "left-temporal-bone",
+      "sphenoid-bone",
+      "ethmoid-bone"
+     ]
+    },
+    {
+     "key": "cubit",
+     "side": "L",
+     "structures": [
+      "left-ulna"
+     ]
+    },
+    {
+     "key": "cubit",
+     "side": "R",
+     "structures": [
+      "right-ulna"
+     ]
+    },
+    {
+     "key": "estern",
+     "side": "C",
+     "structures": [
+      "manubrium-of-sternum",
+      "body-of-sternum",
+      "xiphoid-process"
+     ]
+    },
+    {
+     "key": "falma",
+     "side": "L",
+     "structures": [
+      "left-thumb-proximal-phalanx",
+      "left-index-finger-proximal-phalanx",
+      "left-middle-finger-proximal-phalanx",
+      "left-ring-finger-proximal-phalanx",
+      "left-little-finger-proximal-phalanx",
+      "left-index-finger-middle-phalanx",
+      "left-middle-finger-middle-phalanx",
+      "left-ring-finger-middle-phalanx",
+      "left-little-finger-middle-phalanx",
+      "left-thumb-distal-phalanx",
+      "left-index-finger-distal-phalanx",
+      "left-middle-finger-distal-phalanx",
+      "left-ring-finger-distal-phalanx",
+      "left-little-finger-distal-phalanx"
+     ]
+    },
+    {
+     "key": "falma",
+     "side": "R",
+     "structures": [
+      "right-thumb-proximal-phalanx",
+      "right-index-finger-proximal-phalanx",
+      "right-middle-finger-proximal-phalanx",
+      "right-ring-finger-proximal-phalanx",
+      "right-little-finger-proximal-phalanx",
+      "right-index-finger-middle-phalanx",
+      "right-middle-finger-middle-phalanx",
+      "right-ring-finger-middle-phalanx",
+      "right-little-finger-middle-phalanx",
+      "right-thumb-distal-phalanx",
+      "right-index-finger-distal-phalanx",
+      "right-middle-finger-distal-phalanx",
+      "right-ring-finger-distal-phalanx",
+      "right-little-finger-distal-phalanx"
+     ]
+    },
+    {
+     "key": "femur",
+     "side": "L",
+     "structures": [
+      "left-femur"
+     ]
+    },
+    {
+     "key": "femur",
+     "side": "R",
+     "structures": [
+      "right-femur"
+     ]
+    },
+    {
+     "key": "fpeu",
+     "side": "L",
+     "structures": [
+      "left-big-toe-proximal-phalanx",
+      "left-second-toe-proximal-phalanx",
+      "left-third-toe-proximal-phalanx",
+      "left-fourth-toe-proximal-phalanx",
+      "left-little-toe-proximal-phalanx",
+      "left-second-toe-middle-phalanx",
+      "left-third-toe-middle-phalanx",
+      "left-fourth-toe-middle-phalanx",
+      "left-little-toe-middle-phalanx",
+      "left-big-toe-distal-phalanx",
+      "left-second-toe-distal-phalanx",
+      "left-third-toe-distal-phalanx",
+      "left-fourth-toe-distal-phalanx",
+      "left-little-toe-distal-phalanx",
+      "left-sesamoid-bones-of-the-foot"
+     ]
+    },
+    {
+     "key": "fpeu",
+     "side": "R",
+     "structures": [
+      "right-big-toe-proximal-phalanx",
+      "right-second-toe-proximal-phalanx",
+      "right-third-toe-proximal-phalanx",
+      "right-fourth-toe-proximal-phalanx",
+      "right-little-toe-proximal-phalanx",
+      "right-second-toe-middle-phalanx",
+      "right-third-toe-middle-phalanx",
+      "right-fourth-toe-middle-phalanx",
+      "right-little-toe-middle-phalanx",
+      "right-big-toe-distal-phalanx",
+      "right-second-toe-distal-phalanx",
+      "right-third-toe-distal-phalanx",
+      "right-fourth-toe-distal-phalanx",
+      "right-little-toe-distal-phalanx",
+      "right-sesamoid-bones-of-the-foot"
+     ]
+    },
+    {
+     "key": "humer",
+     "side": "L",
+     "structures": [
+      "left-humerus"
+     ]
+    },
+    {
+     "key": "humer",
+     "side": "R",
+     "structures": [
+      "right-humerus"
+     ]
+    },
+    {
+     "key": "maxillar",
+     "side": "C",
+     "structures": [
+      "mandible"
+     ]
+    },
+    {
+     "key": "metacarp",
+     "side": "L",
+     "structures": [
+      "left-first-metacarpal-bone",
+      "left-second-metacarpal-bone",
+      "left-third-metacarpal-bone",
+      "left-fourth-metacarpal-bone",
+      "left-fifth-metacarpal-bone"
+     ]
+    },
+    {
+     "key": "metacarp",
+     "side": "R",
+     "structures": [
+      "right-first-metacarpal-bone",
+      "right-second-metacarpal-bone",
+      "right-third-metacarpal-bone",
+      "right-fourth-metacarpal-bone",
+      "right-fifth-metacarpal-bone"
+     ]
+    },
+    {
+     "key": "metatars",
+     "side": "L",
+     "structures": [
+      "left-first-metatarsal-bone",
+      "left-second-metatarsal-bone",
+      "left-third-metatarsal-bone",
+      "left-fourth-metatarsal-bone",
+      "left-fifth-metatarsal-bone"
+     ]
+    },
+    {
+     "key": "metatars",
+     "side": "R",
+     "structures": [
+      "right-first-metatarsal-bone",
+      "right-second-metatarsal-bone",
+      "right-third-metatarsal-bone",
+      "right-fourth-metatarsal-bone",
+      "right-fifth-metatarsal-bone"
+     ]
+    },
+    {
+     "key": "omoplat",
+     "side": "L",
+     "structures": [
+      "left-scapula"
+     ]
+    },
+    {
+     "key": "omoplat",
+     "side": "R",
+     "structures": [
+      "right-scapula"
+     ]
+    },
+    {
+     "key": "pelvis",
+     "side": "L",
+     "structures": [
+      "left-hip-bone"
+     ]
+    },
+    {
+     "key": "pelvis",
+     "side": "R",
+     "structures": [
+      "right-hip-bone"
+     ]
+    },
+    {
+     "key": "perone",
+     "side": "L",
+     "structures": [
+      "left-fibula"
+     ]
+    },
+    {
+     "key": "perone",
+     "side": "R",
+     "structures": [
+      "right-fibula"
+     ]
+    },
+    {
+     "key": "radi",
+     "side": "L",
+     "structures": [
+      "left-radius"
+     ]
+    },
+    {
+     "key": "radi",
+     "side": "R",
+     "structures": [
+      "right-radius"
+     ]
+    },
+    {
+     "key": "rotula",
+     "side": "L",
+     "structures": [
+      "left-patella"
+     ]
+    },
+    {
+     "key": "rotula",
+     "side": "R",
+     "structures": [
+      "right-patella"
+     ]
+    },
+    {
+     "key": "tars",
+     "side": "L",
+     "structures": [
+      "left-talus",
+      "left-calcaneus",
+      "left-navicular",
+      "left-cuboid",
+      "left-medial-cuneiform",
+      "left-intermediate-cuneiform",
+      "left-lateral-cuneiform"
+     ]
+    },
+    {
+     "key": "tars",
+     "side": "R",
+     "structures": [
+      "right-talus",
+      "right-calcaneus",
+      "right-navicular",
+      "right-cuboid",
+      "right-medial-cuneiform",
+      "right-intermediate-cuneiform",
+      "right-lateral-cuneiform"
+     ]
+    },
+    {
+     "key": "tibia",
+     "side": "L",
+     "structures": [
+      "left-tibia"
+     ]
+    },
+    {
+     "key": "tibia",
+     "side": "R",
+     "structures": [
+      "right-tibia"
+     ]
+    },
+    {
+     "key": "vertebra",
+     "side": "C",
+     "structures": [
+      "first-lumbar-vertebra-l1"
+     ]
+    }
+   ],
+   "states": {
+    "front": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella",
+        "omoplat"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 128–347 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "back": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "humer",
+        "omoplat",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "cubit",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 123–346 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 18,
+      "hidden": 3,
+      "taps": 21
+     }
+    },
+    "front-50": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 161–345 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "carp",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [
+        "falma"
+       ],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "front-100": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 174–315 px",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    },
+    "back-100": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "hidden in this view (label faded, dashed line)",
+       "endOk": null,
+       "crosses": [
+        "cubit"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 170–315 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [
+        "radi"
+       ],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 19,
+      "hidden": 2,
+      "taps": 21
+     }
+    },
+    "reassembled": {
+     "count": 21,
+     "rows": [
+      {
+       "k": "crani",
+       "text": "crani",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "crani",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "crani"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "maxillar",
+       "text": "maxil·lar",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "maxillar",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "maxillar"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "costella",
+       "text": "costella",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "costella",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "omoplat"
+       ],
+       "lit": [
+        "costella"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "estern",
+       "text": "estern",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "estern",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella",
+        "omoplat"
+       ],
+       "lit": [
+        "estern"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "vertebra",
+       "text": "vèrtebra",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "vertebra",
+       "endOk": true,
+       "crosses": [
+        "humer",
+        "costella"
+       ],
+       "lit": [
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "columna",
+       "text": "columna vertebral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "bracket 128–347 px",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "columna",
+        "vertebra"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "pelvis",
+       "text": "pelvis",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pelvis",
+       "endOk": true,
+       "crosses": [
+        "radi",
+        "cubit"
+       ],
+       "lit": [
+        "pelvis"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "femur",
+       "text": "fèmur",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "femur",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "femur"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "rotula",
+       "text": "ròtula",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "rotula",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "rotula"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tibia",
+       "text": "tíbia",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibia",
+       "endOk": true,
+       "crosses": [
+        "perone"
+       ],
+       "lit": [
+        "tibia"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "fpeu",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "fpeu",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "omoplat",
+       "text": "omòplat",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "omoplat",
+       "endOk": true,
+       "crosses": [
+        "humer"
+       ],
+       "lit": [
+        "omoplat"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "humer",
+       "text": "húmer",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "humer",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "humer"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "cubit",
+       "text": "cúbit",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "cubit",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "cubit"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "radi",
+       "text": "radi",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "radi",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "radi"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "carp",
+       "text": "carp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "carp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "carp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metacarp",
+       "text": "metacarp",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metacarp",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metacarp"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "falma",
+       "text": "falanges",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "falma",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "falma",
+        "fpeu"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "perone",
+       "text": "peroné",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "perone",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "perone"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "tars",
+       "text": "tars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tars"
+       ],
+       "litOk": true
+      },
+      {
+       "k": "metatars",
+       "text": "metatars",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "metatars",
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "metatars"
+       ],
+       "litOk": true
+      }
+     ],
+     "pass": {
+      "names": 21,
+      "zones": 21,
+      "ends": 21,
+      "hidden": 0,
+      "taps": 21
+     }
+    }
+   }
+  }
+ },
+ "note": "Headless Chrome with SwiftShader software WebGL and emulated viewports. NOT real-device results."
+}

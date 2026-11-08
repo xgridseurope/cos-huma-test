@@ -85,6 +85,9 @@ for key, ca, es, zh, en, zone in MUSCLES:
     items.append({'key': key, 'term': key, 'lesson': 'musculatura', 'page': 27, 'exam': True, 'zone': zone,
         'name': {'ca': ca, 'es': es, 'zh': zh, 'en': en}, 'fact': FACT.get(key), 'type': None, 'partOf': None,
         'inActivity': {}, 'status': {'name': T, 'zone': T, 'fact': T if key in FACT else 'none', 'type': 'n/a', 'translations': 'pending'}})
+items.append({'key': 'cara', 'term': 'cara', 'lesson': 'esquelet', 'page': 25, 'exam': False, 'labelled': False, 'zone': 'cap',
+    'name': {'ca': 'ossos de la cara', 'es': 'huesos de la cara', 'zh': '面部骨骼', 'en': 'face bones'}, 'fact': None, 'type': None, 'partOf': None, 'inActivity': {},
+    'status': {'name': 'textbook-text', 'zone': T}})
 for key, ca, es, zh, en in [('clavicula', 'clavícula', 'clavícula', '锁骨', 'collarbone'), ('altres', 'altres ossos', 'otros huesos', '其他骨', 'other bones')]:
     items.append({'key': key, 'term': key, 'lesson': 'esquelet', 'page': None, 'exam': False, 'zone': None, 'name': {'ca': ca, 'es': es, 'zh': zh, 'en': en},
         'fact': None, 'type': None, 'partOf': None, 'inActivity': {}, 'status': {'name': 'not-in-textbook'}})
@@ -92,7 +95,8 @@ out = {
  'version': '1.0', 'source': 'Medi 4t primària, unitat 2, p.25 L\'esquelet i p.27 La musculatura (photos 2026-11-08)',
  'statusLegend': {'textbook': 'read from the textbook photos: exact spelling and lower case as printed; zone from label colour',
     'pending': 'not stated in the textbook; never used in exercises', 'none': 'the textbook gives no item fact; the zone fact is shown',
-    'not-in-textbook': 'extra shown in 3D only; never labelled or used in exercises'},
+    'not-in-textbook': 'extra shown in 3D only; never labelled or used in exercises',
+    'textbook-text': 'named in the textbook paragraph but has no label in the figure; shown in 3D, not labelled, not used in exercises'},
  'exerciseRule': 'exercises use only exam=true items and fields whose status is textbook; items sharing a term (falanges) are the same answer',
  'zones': ZONES, 'zoneFacts': {f'{l}.{z}': v for (l, z), v in ZONE_FACT.items()},
  'types': {'llarg': {'ca': 'os llarg', 'es': 'hueso largo', 'zh': '长骨', 'en': 'long bone'}, 'pla': {'ca': 'os pla', 'es': 'hueso plano', 'zh': '扁骨', 'en': 'flat bone'}},

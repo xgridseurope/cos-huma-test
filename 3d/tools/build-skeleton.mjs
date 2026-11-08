@@ -15,7 +15,9 @@ const io = new NodeIO().registerExtensions(ALL_EXTENSIONS);
 
 // structureId -> textbook key (order matters: first match wins)
 const MAP = [
-  ['crani', /^(frontal-bone|.*parietal-bone|occipital-bone|.*temporal-bone|sphenoid-bone|ethmoid-bone|.*nasal-bone|.*lacrimal-bone|.*zygomatic-bone|.*maxilla|.*palatine-bone|.*inferior-nasal-concha|vomer)$/],
+  // textbook p.25: 'crani' = bones of the cranium only; the face bones are 'els ossos de la cara' (in the Cap text, no label)
+  ['crani', /^(frontal-bone|.*parietal-bone|occipital-bone|.*temporal-bone|sphenoid-bone|ethmoid-bone)$/],
+  ['cara', /^(.*nasal-bone|.*lacrimal-bone|.*zygomatic-bone|.*maxilla|.*palatine-bone|.*inferior-nasal-concha|vomer)$/],
   ['maxillar', /^mandible$/],
   ['vertebra', /^first-lumbar-vertebra-l1$/], // textbook p.25 labels one 'vèrtebra'; L1 is visible below the ribs in front view
   ['columna', /(vertebra|atlas-c1|axis-c2|^sacrum$|intervertebral-disc)/],
@@ -32,7 +34,7 @@ const MAP = [
   ['metatars', /metatarsal-bone$/], ['fpeu', /(toe-.*phalanx|sesamoid-bones-of-the-foot)$/],
 ];
 const keyOf = (id) => (MAP.find(([, re]) => re.test(id)) || ['altres'])[0];
-const SINGLE = new Set(['crani', 'maxillar', 'columna', 'vertebra', 'estern', 'altres']);
+const SINGLE = new Set(['crani', 'cara', 'maxillar', 'columna', 'vertebra', 'estern', 'altres']);
 const sideOf0 = (id) => id.startsWith('left-') ? 'L' : id.startsWith('right-') ? 'R' : 'C';
 
 // Transforms recorded in OrganUI manifests (display = (mm - centre) * scale, axes [x, z, -y])

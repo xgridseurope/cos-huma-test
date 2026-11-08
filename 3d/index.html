@@ -13,7 +13,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family
 #stage canvas{display:block;width:100%;height:100%}
 #overlay{position:fixed;inset:0;pointer-events:none}
 #leads{position:absolute;inset:0;width:100%;height:100%}
-#leads line{stroke:#4a4440;stroke-width:1.2}#leads circle{fill:#2b2622}
+#leads .halo{stroke:#fff;stroke-width:4;opacity:.8;fill:none;stroke-linecap:round}#leads .ln{stroke:#3f3a36;stroke-width:1.3;fill:none}#leads .ln.sel{stroke:#111;stroke-width:2.4}#leads .dotH{fill:#fff}#leads .dot{fill:#2b2622}#leads .dot.sel{fill:#c0563b}#leads .ln.hid{stroke-dasharray:4 3;opacity:.6}#leads .dot.hid{fill:#9b948c}.pill.hid{opacity:.5}
 .pill{position:absolute;top:0;left:0;padding:3px 10px;border-radius:14px;font-size:13px;font-weight:700;color:#2b2622;border:2px solid;white-space:nowrap;box-shadow:0 1px 3px #0003;pointer-events:auto;cursor:pointer;line-height:18px;will-change:transform}
 .pill.sel{outline:3px solid #fff;box-shadow:0 0 0 5px var(--ink)}
 header{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;gap:8px;padding:8px 10px;pointer-events:none}
@@ -32,7 +32,7 @@ header select,header a,.btn{pointer-events:auto;font:inherit;font-size:14px;bord
 #card h2{margin:0 0 2px;font-size:20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 #card .zone{font-size:12px;color:#2b2622;border:2px solid;border-radius:10px;padding:1px 8px}
 #card .ca{font-size:13px;color:var(--mut)}
-#card p{margin:4px 0 0;font-size:14px;line-height:1.35}
+#card p{margin:4px 0 0;font-size:14px;line-height:1.35}#card .res{font-size:11px;color:#7d746a;background:#f1ebe1;border-radius:6px;padding:1px 6px;margin-right:4px;white-space:nowrap}
 #card .extra{font-size:12px;background:#ece6dc;color:#5d5650;border-radius:8px;padding:2px 8px}
 #card .x{position:absolute;right:6px;top:4px;border:0;background:none;font-size:22px;color:var(--mut);min-width:40px;min-height:40px}
 #loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;font-size:15px;color:var(--mut)}
@@ -62,7 +62,7 @@ body.short #rotHint{display:block}body.short #dock .row:last-child{display:none}
 <div id="stage"></div>
 <div id="overlay"><svg id="leads"></svg><div id="pills"></div></div>
 <header>
-  <h1><span id="tTitle">El cos humà 3D</span><small id="tSub">Esquelet · prova M1.1 (v0.4)</small></h1>
+  <h1><span id="tTitle">El cos humà 3D</span><small id="tSub">Esquelet · prova M1.1 (v0.7)</small></h1>
   <button class="btn" id="bDiag" aria-label="Diagnòstic" title="Diagnòstic">⚙︎</button>
   <select id="lang" aria-label="Idioma"><option value="ca">CA</option><option value="es">ES</option><option value="zh">中</option><option value="en">EN</option></select>
   <a id="book" href="../index.html">📖 2D</a>
@@ -118,6 +118,6 @@ body.short #rotHint{display:block}body.short #dock .row:last-child{display:none}
   });
 })();
 </script>
-<script type="module" src="./app.js?v=0.4"></script>
+<script type="module" src="./app.js?v=0.7"></script>
 </body>
 </html>

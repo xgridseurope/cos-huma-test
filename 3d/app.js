@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-const VERSION = 'M1.1-0.4';
+const VERSION = 'M1.1-0.7';
 const $ = (id) => document.getElementById(id);
 const t0 = performance.now();
 const Q = new URLSearchParams(location.search), H = location.hash;
@@ -13,10 +13,10 @@ const fail = (stage, err) => window.__coshumaFail(stage, err); // defined in ind
 
 // ---------- UI text ----------
 const T = {
-  ca: { title: 'El cos humà 3D', sub: 'Esquelet · prova M1.1 (v0.4)', join: 'Munta', split: 'Desmunta', front: 'Davant', back: 'Darrere', labels: 'Noms', zones: 'Zones', hint: 'Toca un os · arrossega per girar · pessiga per ampliar', loading: "Carregant l'esquelet…", extra: 'No surt al llibre', pair: '(×2)' },
-  es: { title: 'El cuerpo humano 3D', sub: 'Esqueleto · prueba M1.1 (v0.4)', join: 'Unir', split: 'Separar', front: 'Delante', back: 'Detrás', labels: 'Nombres', zones: 'Zonas', hint: 'Toca un hueso · arrastra para girar · pellizca para ampliar', loading: 'Cargando el esqueleto…', extra: 'No sale en el libro', pair: '(×2)' },
-  zh: { title: '人体 3D', sub: '骨骼 · M1.1 测试版 (v0.4)', join: '拼合', split: '拆开', front: '正面', back: '背面', labels: '名称', zones: '分区', hint: '点骨头看名字 · 拖动旋转 · 双指缩放', loading: '正在加载骨骼…', extra: '课本里没有', pair: '（左右各一）' },
-  en: { title: 'The human body 3D', sub: 'Skeleton · M1.1 test (v0.4)', join: 'Join', split: 'Split', front: 'Front', back: 'Back', labels: 'Names', zones: 'Zones', hint: 'Tap a bone · drag to turn · pinch to zoom', loading: 'Loading the skeleton…', extra: 'Not in the textbook', pair: '(×2)' },
+  ca: { title: 'El cos humà 3D', sub: 'Esquelet · prova M1.1 (v0.7)', join: 'Munta', split: 'Desmunta', front: 'Davant', back: 'Darrere', labels: 'Noms', zones: 'Zones', hint: 'Toca un os · arrossega per girar · pessiga per ampliar', loading: "Carregant l'esquelet…", extra: 'No surt al llibre', textOnly: 'al text del llibre, sense etiqueta', pair: '(×2)' },
+  es: { title: 'El cuerpo humano 3D', sub: 'Esqueleto · prueba M1.1 (v0.7)', join: 'Unir', split: 'Separar', front: 'Delante', back: 'Detrás', labels: 'Nombres', zones: 'Zonas', hint: 'Toca un hueso · arrastra para girar · pellizca para ampliar', loading: 'Cargando el esqueleto…', extra: 'No sale en el libro', textOnly: 'en el texto del libro, sin etiqueta', pair: '(×2)' },
+  zh: { title: '人体 3D', sub: '骨骼 · M1.1 测试版 (v0.7)', join: '拼合', split: '拆开', front: '正面', back: '背面', labels: '名称', zones: '分区', hint: '点骨头看名字 · 拖动旋转 · 双指缩放', loading: '正在加载骨骼…', extra: '课本里没有', textOnly: '课本正文提到，图上无标签', pair: '（左右各一）' },
+  en: { title: 'The human body 3D', sub: 'Skeleton · M1.1 test (v0.7)', join: 'Join', split: 'Split', front: 'Front', back: 'Back', labels: 'Names', zones: 'Zones', hint: 'Tap a bone · drag to turn · pinch to zoom', loading: 'Loading the skeleton…', extra: 'Not in the textbook', textOnly: 'in the textbook text, not labelled', pair: '(×2)' },
 };
 let lang = 'ca';
 try { lang = localStorage.getItem('coshuma.lang') || 'ca'; } catch {}
@@ -31,7 +31,7 @@ const ARM = new Set(['humer', 'cubit', 'radi', 'carp', 'metacarp', 'falma']);
 const LEG = new Set(['femur', 'rotula', 'tibia', 'perone', 'tars', 'metatars', 'fpeu']);
 // stage 2 offsets (model units; body ≈ 4.1 tall; +x = body's left, +z = front); s = +1 left side, -1 right side
 const PIECE = {
-  crani: [0, .32, 0], maxillar: [0, .06, .22], columna: [0, 0, -.42], vertebra: [0, -.04, .3], costella: [.34, 0, .04], estern: [0, -.02, .44], pelvis: [0, -.22, 0],
+  crani: [0, .32, 0], cara: [0, .26, .14], maxillar: [0, .06, .22], columna: [0, 0, -.42], vertebra: [0, -.04, .3], costella: [.34, 0, .04], estern: [0, -.02, .44], pelvis: [0, -.22, 0],
   omoplat: [.42, .1, -.26], clavicula: [.34, .3, .16], altres: [0, .18, .3],
   humer: [.04, .02, 0], cubit: [.12, -.2, 0], radi: [.28, -.2, 0], carp: [.24, -.48, 0], metacarp: [.26, -.66, 0], falma: [.28, -.86, 0],
   femur: [.04, 0, 0], rotula: [.12, -.18, .34], tibia: [.04, -.32, 0], perone: [.26, -.32, 0], tars: [.08, -.62, .1], metatars: [.08, -.82, .24], fpeu: [.08, -1.02, .38],
@@ -125,6 +125,61 @@ meshes.forEach((o) => {
   parts.push({ key: ex.key, side: ex.side, mesh: o, outline: ol, base: o.position.clone(), item });
 });
 bodyBox.setFromObject(root); bodyBox.getCenter(center);
+
+// ---------- leader-line anchors on the bone surface ----------
+// Each piece gets two anchor vertices (front / back view) close to its centre (shifted by ANCHOR_DY) and on the
+// outermost surface, so the dot of a leader line always sits on the bone it names, also after taking it apart.
+function computeAnchors(p) {
+  const g = p.mesh.geometry, pos = g.attributes.position; g.computeBoundingBox();
+  const bb = g.boundingBox, c = bb.getCenter(new THREE.Vector3()), sz = bb.getSize(new THREE.Vector3());
+  const ty = c.y + (ANCHOR_DY[p.key] || 0) * sz.y, r = 0.15 * Math.max(sz.x, sz.y), v = new THREE.Vector3();
+  let f = -1, fz = -Infinity, b = -1, bz = Infinity, n = -1, nd = Infinity;
+  for (let i = 0; i < pos.count; i++) {
+    v.fromBufferAttribute(pos, i); const d = Math.hypot(v.x - c.x, v.y - ty);
+    if (d < nd) { nd = d; n = i; }
+    if (d < r) { if (v.z > fz) { fz = v.z; f = i; } if (v.z < bz) { bz = v.z; b = i; } }
+  }
+  p.anchor = { front: f >= 0 ? f : n, back: b >= 0 ? b : n };
+}
+parts.forEach(computeAnchors);
+const isFrontView = () => Math.cos(Math.atan2(camera.position.x - controls.target.x, camera.position.z - controls.target.z)) >= 0;
+function vertexScreen(p, i) {
+  v3.fromBufferAttribute(p.mesh.geometry.attributes.position, i).applyMatrix4(p.mesh.matrixWorld).project(camera);
+  return { x: (v3.x + 1) / 2 * innerWidth, y: (1 - v3.y) / 2 * innerHeight };
+}
+// Visible anchors: once the view has settled, pick for every piece the vertex nearest its centre whose screen
+// position (and ±1.5 px around it) really shows that bone. Pieces with no visible vertex in this view (e.g. the
+// sternum seen from the back) are marked hidden: their label is faded and the line dashed.
+const sameTerm = (a, b) => a && b && (a === b || (CUR[a]?.term === CUR[b]?.term));
+function visibleAnchor(p) {
+  const pos = p.mesh.geometry.attributes.position, g = p.mesh.geometry, bb = g.boundingBox;
+  const c = bb.getCenter(new THREE.Vector3()), sz = bb.getSize(new THREE.Vector3()), ty = c.y + (ANCHOR_DY[p.key] || 0) * sz.y;
+  const step = Math.max(1, Math.floor(pos.count / 600)), cand = [], v = new THREE.Vector3();
+  for (let i = 0; i < pos.count; i += step) { v.fromBufferAttribute(pos, i); cand.push([Math.hypot(v.x - c.x, v.y - ty, (v.z - c.z) * 0.3), i]); }
+  cand.sort((a, b) => a[0] - b[0]);
+  for (const [, i] of cand.slice(0, 160)) {
+    const s = vertexScreen(p, i);
+    if (s.x < 2 || s.y < 2 || s.x > innerWidth - 2 || s.y > innerHeight - 2) continue;
+    if (!sameTerm(rayKey(s.x, s.y), p.key)) continue; // centre must be on the bone; thin bones (fibula, fingers) need 2 of 4 neighbours
+    if ([[1.5, 0], [-1.5, 0], [0, 1.5], [0, -1.5]].filter(([dx, dy]) => sameTerm(rayKey(s.x + dx, s.y + dy), p.key)).length >= 2) return { i, visible: true };
+  }
+  return { i: isFrontView() ? p.anchor.front : p.anchor.back, visible: false };
+}
+let anchorsFor = '';
+function refreshAnchors() { const key = `${isFrontView()}|${S.cur.e.toFixed(2)}|${innerWidth}x${innerHeight}`; if (key === anchorsFor) return false; for (const p of parts) p.vis = visibleAnchor(p); anchorsFor = key; return true; }
+function anchorScreen(p) {
+  const i = p.vis ? p.vis.i : (isFrontView() ? p.anchor.front : p.anchor.back);
+  const s = vertexScreen(p, i); s.visible = p.vis ? p.vis.visible : true; return s;
+}
+// 'columna vertebral' names the whole spine: its line ends on a bracket spanning the spine, not on one vertebra
+function spineBracket(p, side) {
+  box3.setFromObject(p.mesh); const c = box3.getCenter(new THREE.Vector3());
+  const t = c.clone().setY(box3.max.y).project(camera), b = c.clone().setY(box3.min.y).project(camera);
+  const sx = (q) => (q.x + 1) / 2 * innerWidth, sy = (q) => (1 - q.y) / 2 * innerHeight;
+  const x = side === 'L' ? Math.min(sx(t), sx(b)) - 12 : Math.max(sx(t), sx(b)) + 12;
+  const y0 = sy(t), y1 = sy(b);
+  return { x, y0, y1, jy: y0 + (y1 - y0) * 0.72, tick: side === 'L' ? 6 : -6 };
+}
 controls.target.copy(center);
 
 // ---------- explode ----------
@@ -152,7 +207,7 @@ function applyColours() {
     const it = p.item, m = p.mesh.material;
     let c = WHITE.clone();
     if (S.zones && it?.exam) c = WHITE.clone().lerp(ZC[it.zone], 0.55);
-    if (!it?.exam) c = GREY.clone();
+    if (!it?.exam && it?.status?.name !== 'textbook-text') c = GREY.clone(); // face bones stay bone-white (part of the head)
     if (S.sel) {
       if (isSel(p.key)) c = (it?.exam ? ZC[it.zone] : new THREE.Color(0x8a8278)).clone();
       else c.lerp(new THREE.Color(0xf4efe6), 0.35);
@@ -195,14 +250,14 @@ function layoutLabels() {
     let best = null;
     for (const p of parts) {
       if (p.key !== k) continue;
-      box3.setFromObject(p.mesh); box3.getCenter(v3); if (ANCHOR_DY[k]) v3.y += ANCHOR_DY[k] * (box3.max.y - box3.min.y); v3.project(camera);
-      const x = (v3.x + 1) / 2 * W, y = (1 - v3.y) / 2 * H;
-      const score = want === 'L' ? x : -x;
-      if (!best || score < best.score) best = { x, y, score };
+      const a = anchorScreen(p); const x = a.x, y = a.y;
+      const score = (want === 'L' ? x : -x) + (a.visible ? 0 : 1e5);
+      if (!best || score < best.score) best = { x, y, score, p, visible: a.visible };
     }
     if (!best) continue;
-    const col = S.cur.e >= 0.5 ? (best.x < W / 2 ? 'L' : 'R') : want;
-    cols[col].push({ k, ax: best.x, ay: best.y });
+    const col = want; // keep the textbook's left/right columns in every state, also when taken apart
+    const br = k === 'columna' ? spineBracket(best.p, col) : null;
+    cols[col].push(br ? { k, ax: br.x, ay: br.jy, br, visible: true } : { k, ax: best.x, ay: best.y, visible: best.visible });
   }
   const h = innerWidth >= 700 ? 30 : 26, gap = 3, pad = 6;
   let svg = '';
@@ -219,8 +274,11 @@ function layoutLabels() {
       el.style.transform = `translate(${x}px,${l.y}px)`;
       el.classList.toggle('sel', isSel(l.k));
       const ex = side === 'L' ? x + w : x, ey = l.y + h / 2;
-      svg += `<line x1="${ex}" y1="${ey}" x2="${l.ax}" y2="${l.ay}"/><circle cx="${l.ax}" cy="${l.ay}" r="2.6"/>`;
-      rects.push({ k: l.k, x, y: l.y, w, h });
+      const sel = (isSel(l.k) ? ' sel' : '') + (l.visible ? '' : ' hid'); el.classList.toggle('hid', !l.visible);
+      svg += `<line class="halo" x1="${ex}" y1="${ey}" x2="${l.ax}" y2="${l.ay}"/><line class="ln${sel}" x1="${ex}" y1="${ey}" x2="${l.ax}" y2="${l.ay}"/>`;
+      if (l.br) { const b = l.br; const d = `M${b.x + b.tick} ${b.y0} H${b.x} V${b.y1} H${b.x + b.tick}`; svg += `<path class="halo" d="${d}"/><path class="ln br${sel}" d="${d}"/>`; }
+      else svg += `<circle class="dotH" cx="${l.ax}" cy="${l.ay}" r="4.2"/><circle class="dot${sel}" cx="${l.ax}" cy="${l.ay}" r="2.6"/>`;
+      rects.push({ k: l.k, x, y: l.y, w, h, ax: l.ax, ay: l.ay, ex, ey, bracket: l.br || null, side, visible: l.visible });
     }
   }
   for (const k in pills) if (!rects.find((r) => r.k === k)) pills[k].style.transform = 'translate(-999px,-999px)';
@@ -297,11 +355,13 @@ function renderCard() {
   if (!it) { c.classList.remove('show'); return; }
   const u = T[lang]; const paired = parts.filter((p) => p.key === S.sel).length > 1 && it.term !== 'falanges';
   const zone = it.zone ? `<span class="zone" style="background:var(--${it.zone}-f);border-color:var(--${it.zone}-s)">${cur.zones[it.zone][lang]}</span>` : '';
-  $('cName').innerHTML = `${it.name[lang]} <small style="font-size:13px;color:var(--mut)">${paired ? u.pair : ''}</small> ${zone} ${it.exam ? '' : `<span class="extra">${u.extra}</span>`}`;
+  $('cName').innerHTML = `${it.name[lang]} <small style="font-size:13px;color:var(--mut)">${paired ? u.pair : ''}</small> ${zone} ${it.exam ? '' : `<span class="extra">${it.status?.name === 'textbook-text' ? u.textOnly : u.extra}</span>`}`;
   $('cCa').textContent = lang !== 'ca' ? it.name.ca : '';
   const zf = it.zone && cur.zoneFacts[`${it.lesson}.${it.zone}`];
   const typ = it.type && it.status.type === 'textbook' ? ` (${cur.types[it.type][lang]})` : '';
-  $('cDef').textContent = it.exam ? '📖 ' + ((it.fact && it.fact[lang]) || (zf && zf[lang]) || '') + typ : '';
+  // the text under the name is a short summary of what the textbook says, not textbook wording: say so
+  const RES = { ca: 'resum del llibre', es: 'resumen del libro', zh: '课本要点（非原文）', en: 'textbook summary' };
+  $('cDef').innerHTML = it.exam ? `<span class="res">📖 ${RES[lang]} · p.${it.page}</span> ` + ((it.fact && it.fact[lang]) || (zf && zf[lang]) || '') + typ : '';
   c.classList.add('show'); invalidate(); // no refit: the body must not jump under the child's finger when the card opens
 }
 $('cardX').onclick = () => select(null);
@@ -368,6 +428,7 @@ function frame() {
   if (bench.on) { const k = (performance.now() - bench.t0) / 5000; const az = bench.az0 + k * Math.PI * 2; const off = camera.position.clone().sub(controls.target); const d = Math.hypot(off.x, off.z); camera.position.set(controls.target.x + Math.sin(az) * d, camera.position.y, controls.target.z + Math.cos(az) * d); camera.lookAt(controls.target); }
   if (controls.update()) busy = true;
   renderer.render(scene, camera);
+  if (!busy && !S.turning && S.labels && refreshAnchors()) busy = true; // settled: recompute anchors, then one more frame
   layoutLabels();
   metrics.frames++; metrics.draws = renderer.info.render.calls; metrics.tris = renderer.info.render.triangles;
   if (!metrics.firstFrameMs) metrics.firstFrameMs = Math.round(performance.now() - t0);
@@ -423,6 +484,9 @@ window.__coshuma = {
   idle: () => !frameReq && !bench.on, diag: diagData, startBench,
   eligible: (it, field) => it.exam === true && it.status?.[field] === 'textbook', termOf, isSel,
   pickAt: (x, y) => rayKey(x, y), fingerPick,
+  selectedKeys: () => [...new Set(parts.filter((p) => isSel(p.key)).map((p) => p.key))],
+  meshInfo: () => parts.map((p) => ({ key: p.key, side: p.side, structures: p.mesh.userData.parts || [] })),
+  front: isFrontView,
   samplePoints(k, n = 6) { // screen points whose first hit is this item (what a child would aim at)
     const out = []; const ps = parts.filter((p) => p.key === k);
     for (const p of ps) { const pos = p.mesh.geometry.attributes.position; const step = Math.max(1, Math.floor(pos.count / 60));

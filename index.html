@@ -325,7 +325,7 @@ function render(){
   }
   const u=T[lang],cs=document.getElementById('capS');
   if(L.custom)cs.textContent=curT<.5?u.arm.bent:u.arm.str;
-  else if(info&&performance.now()<info.until&&mode!=='troba'){const [n,d]=nm(info.k);cs.textContent=n+' — '+d}
+  else if(info&&performance.now()<info.until&&mode!=='troba'){const [n,d]=nm(info.k);cs.textContent=n+' — '+d+' ('+({ca:'resum del llibre',es:'resumen del libro',zh:'课本要点，非原文',en:'textbook summary'})[lang]+')'}
   else if(mode==='zona')cs.textContent=u.dragZone;else if(mode==='tipus')cs.textContent=u.dragType;
   else cs.textContent=curT<.2?u.s0+' · '+u.fact[L.id]:curT<.62?u.s1:u.s2;
   if(!cam.on)document.getElementById('hud').textContent=Math.round(curT*100)+'%';

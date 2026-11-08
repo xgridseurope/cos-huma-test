@@ -1,0 +1,3 @@
+{ "name": "cos-huma-3d", "private": true, "type": "module",
+  "scripts": { "build:skeleton": "node tools/build-skeleton.mjs src-models/skeleton.glb src-models/muscles.glb models/cos-huma-skeleton.glb" },
+  "devDependencies": { "@gltf-transform/core": "4.5.0", "@gltf-transform/extensions": "4.5.0", "@gltf-transform/functions": "4.5.0", "meshoptimizer": "1.3.0", "playwright-core": "*" } }

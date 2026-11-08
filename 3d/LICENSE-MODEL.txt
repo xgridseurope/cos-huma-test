@@ -1,0 +1,12 @@
+models/cos-huma-skeleton.glb and models/cos-huma-skeleton.glb.js (the same model, base64-encoded)
+
+Licence: Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP)
+  Summary:    https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
+  Legal code: https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode
+
+Required credit:
+  BodyParts3D, © The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan
+
+This file is an adaptation. Source chain, changes and the licence-chain note are in ATTRIBUTION.txt.
+Anyone may copy and adapt it under the same licence. The MIT licence of three.js and the code licence
+of this app do not apply to the model.

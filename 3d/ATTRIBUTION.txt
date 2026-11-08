@@ -1,0 +1,30 @@
+COS-HUMA 3D — model attribution and licence
+
+models/cos-huma-skeleton.glb
+  BodyParts3D, © The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan.
+  Licence: https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
+  Original work: Mitsuhashi et al., "BodyParts3D: 3D structure database for anatomical concepts",
+  Nucleic Acids Research 37 (2009) D782-D785, https://doi.org/10.1093/nar/gkn613
+  Source release: BodyParts3D 3.0 (20110915), STL mirror Kevin-Mattheus-Moerman/BodyParts3D @ f0eeb6e
+  Intermediate adaptations (CC BY-SA 2.1 JP), retrieved 2026-11-07:
+    - OrganUI Skeleton  https://github.com/organui/skeleton-3d @ 120fc17  (public/models/skeleton.glb,
+      sha256 verified by its verify:model script) — 242 meshes selected, welded, simplified, recentred,
+      uniformly scaled, Z-up -> Y-up, recoloured.
+    - OrganUI Muscles   https://github.com/organui/muscles-3d  @ 1c746c3  (public/models/muscles.glb)
+      — 177 structures combined from 428 meshes, simplified, recentred, scaled, Y-up.
+  Changes by COS-HUMA (tools/build-skeleton.mjs, reproducible):
+    - bones grouped into the textbook items of Medi 4 (pp. 25 & 27) and by side; one mesh per group
+    - bones simplified with meshoptimizer, max deviation 0.001 units (~0.4 mm)
+    - "shell" mesh: muscle surfaces mapped into the skeleton frame using the OrganUI manifest transforms,
+      offset ~11 mm along normals, simplified to 12 %, used as the navy body silhouette
+    - geometry quantized (KHR_mesh_quantization)
+  The adapted model is distributed under the same licence, CC BY-SA 2.1 JP.
+  DBCLS and OrganUI do not endorse this application. Educational use; not a medical tool.
+
+Licence-chain note (to re-check before public release): the official DBCLS licence page
+(https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html, updated 2025-02-27) states CC BY 4.0 and names
+release 4.0 only. Whether it applies to release 3.0 is not stated, so the stricter CC BY-SA 2.1 JP of the
+3.0 mirror is applied here.
+
+vendor/  three.js r186, MIT (vendor/THREE-LICENSE.txt)
+Application code (index.html, app.js, tools/): COS-HUMA.

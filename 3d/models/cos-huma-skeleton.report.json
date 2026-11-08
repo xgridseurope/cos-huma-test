@@ -1,0 +1,171 @@
+{
+ "groups": {
+  "altres_C": {
+   "parts": 1,
+   "tris": 692
+  },
+  "carp_L": {
+   "parts": 8,
+   "tris": 3202
+  },
+  "carp_R": {
+   "parts": 8,
+   "tris": 3212
+  },
+  "clavicula_L": {
+   "parts": 1,
+   "tris": 2090
+  },
+  "clavicula_R": {
+   "parts": 1,
+   "tris": 2090
+  },
+  "columna_C": {
+   "parts": 47,
+   "tris": 44964
+  },
+  "costella_L": {
+   "parts": 20,
+   "tris": 37248
+  },
+  "costella_R": {
+   "parts": 20,
+   "tris": 39100
+  },
+  "crani_C": {
+   "parts": 21,
+   "tris": 23772
+  },
+  "cubit_L": {
+   "parts": 1,
+   "tris": 3180
+  },
+  "cubit_R": {
+   "parts": 1,
+   "tris": 3180
+  },
+  "estern_C": {
+   "parts": 3,
+   "tris": 3080
+  },
+  "falma_L": {
+   "parts": 14,
+   "tris": 6526
+  },
+  "falma_R": {
+   "parts": 14,
+   "tris": 6536
+  },
+  "femur_L": {
+   "parts": 1,
+   "tris": 5524
+  },
+  "femur_R": {
+   "parts": 1,
+   "tris": 5524
+  },
+  "fpeu_L": {
+   "parts": 15,
+   "tris": 5916
+  },
+  "fpeu_R": {
+   "parts": 15,
+   "tris": 5882
+  },
+  "humer_L": {
+   "parts": 1,
+   "tris": 3928
+  },
+  "humer_R": {
+   "parts": 1,
+   "tris": 3928
+  },
+  "maxillar_C": {
+   "parts": 1,
+   "tris": 1810
+  },
+  "metacarp_L": {
+   "parts": 5,
+   "tris": 4144
+  },
+  "metacarp_R": {
+   "parts": 5,
+   "tris": 4144
+  },
+  "metatars_L": {
+   "parts": 5,
+   "tris": 4936
+  },
+  "metatars_R": {
+   "parts": 5,
+   "tris": 4936
+  },
+  "omoplat_L": {
+   "parts": 1,
+   "tris": 2662
+  },
+  "omoplat_R": {
+   "parts": 1,
+   "tris": 2662
+  },
+  "pelvis_L": {
+   "parts": 1,
+   "tris": 3366
+  },
+  "pelvis_R": {
+   "parts": 1,
+   "tris": 3366
+  },
+  "perone_L": {
+   "parts": 1,
+   "tris": 4248
+  },
+  "perone_R": {
+   "parts": 1,
+   "tris": 4248
+  },
+  "radi_L": {
+   "parts": 1,
+   "tris": 2714
+  },
+  "radi_R": {
+   "parts": 1,
+   "tris": 2804
+  },
+  "rotula_L": {
+   "parts": 1,
+   "tris": 742
+  },
+  "rotula_R": {
+   "parts": 1,
+   "tris": 744
+  },
+  "tars_L": {
+   "parts": 7,
+   "tris": 5004
+  },
+  "tars_R": {
+   "parts": 7,
+   "tris": 5012
+  },
+  "tibia_L": {
+   "parts": 1,
+   "tris": 4330
+  },
+  "tibia_R": {
+   "parts": 1,
+   "tris": 4332
+  },
+  "vertebra_C": {
+   "parts": 1,
+   "tris": 1450
+  }
+ },
+ "unmapped": [
+  "hyoid-bone"
+ ],
+ "shellTris": 36166,
+ "meshes": 41,
+ "totalTris": 223844,
+ "bytes": 3196940
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>El cos humà 3D · Musculatura (M2 test)</title>
+<style>
+:root{--bg:#f4efe6;--ink:#2b2622;--mut:#7d746a;--line:#e2d8c8;--navy:#23366b;--cap:#4f86d0;--tronc:#e58a2e;--ext:#46a05e;--cap-f:#e3e9f3;--cap-s:#7f9ac4;--tronc-f:#f9d4a2;--tronc-s:#d98f35;--ext-f:#cfe9d2;--ext-s:#5fa86d;--acc:#c0563b}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;overflow:hidden;overscroll-behavior:none}
+#stage{position:fixed;inset:0;touch-action:none}
+#stage canvas{display:block;width:100%;height:100%}
+#overlay{position:fixed;inset:0;pointer-events:none}
+#leads{position:absolute;inset:0;width:100%;height:100%}
+#leads .halo{stroke:#fff;stroke-width:4;opacity:.8;fill:none;stroke-linecap:round}#leads .ln{stroke:#3f3a36;stroke-width:1.3;fill:none}#leads .ln.sel{stroke:#111;stroke-width:2.4}#leads .dotH{fill:#fff}#leads .dot{fill:#2b2622}#leads .dot.sel{fill:#c0563b}#leads .ln.hid{stroke-dasharray:4 3;opacity:.6}#leads .dot.hid{fill:#9b948c}.pill.hid{opacity:.5}
+.pill{position:absolute;top:0;left:0;padding:3px 10px;border-radius:14px;font-size:13px;font-weight:700;color:#2b2622;border:2px solid;white-space:nowrap;box-shadow:0 1px 3px #0003;pointer-events:auto;cursor:pointer;line-height:18px;will-change:transform}
+.pill.sel{outline:3px solid #fff;box-shadow:0 0 0 5px var(--ink)}
+header{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;gap:8px;padding:8px 10px;pointer-events:none}
+header h1{margin:0;font-size:16px;font-weight:800;flex:1;pointer-events:none}
+header h1 small{display:block;font-size:11px;font-weight:500;color:var(--mut)}
+header select,header a,.btn{pointer-events:auto;font:inherit;font-size:14px;border:1px solid var(--line);background:#fffaf2;color:var(--ink);border-radius:10px;padding:8px 10px;min-height:40px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:4px;cursor:pointer}
+.btn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+#dock{position:fixed;left:0;right:0;bottom:0;padding:8px 10px calc(10px + env(safe-area-inset-bottom));background:linear-gradient(#f4efe600,#f4efe6 22%);display:flex;flex-direction:column;gap:8px}
+.row{display:flex;gap:6px;align-items:center}
+.row .btn{flex:1;min-height:44px}
+#bJoin,#bSplit{flex:0 0 auto;font-size:13px;padding:8px 9px}
+#slider{flex:1;accent-color:var(--acc);height:36px}
+.sl-lbl{font-size:12px;color:var(--mut);min-width:54px;text-align:center}
+#card{display:none;background:#fffaf2;border:1px solid var(--line);border-radius:14px;padding:10px 12px;box-shadow:0 4px 16px #0002;position:relative}
+#card.show{display:block}
+#card h2{margin:0 0 2px;font-size:20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#card .zone{font-size:12px;color:#2b2622;border:2px solid;border-radius:10px;padding:1px 8px}
+#card .ca{font-size:13px;color:var(--mut)}
+#card p{margin:4px 0 0;font-size:14px;line-height:1.35}#card .res{font-size:11px;color:#7d746a;background:#f1ebe1;border-radius:6px;padding:1px 6px;margin-right:4px;white-space:nowrap}
+#card .extra{font-size:12px;background:#ece6dc;color:#5d5650;border-radius:8px;padding:2px 8px}
+#card .x{position:absolute;right:6px;top:4px;border:0;background:none;font-size:22px;color:var(--mut);min-width:40px;min-height:40px}
+#loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;font-size:15px;color:var(--mut)}
+#loading .bar{width:180px;height:6px;border-radius:3px;background:var(--line);overflow:hidden}#loading .bar i{display:block;height:100%;width:0;background:var(--acc)}
+#credits{position:fixed;inset:0;background:#0006;display:none;align-items:center;justify-content:center;padding:16px}
+#credits.show{display:flex}
+#credits div{background:#fffaf2;border-radius:14px;padding:14px 16px;max-width:520px;font-size:13px;line-height:1.45;max-height:80vh;overflow:auto}
+#credits a{color:var(--navy)}
+#diag{position:fixed;top:56px;right:8px;left:auto;max-width:min(360px,calc(100vw - 16px));background:#fffaf2f2;border:1px solid var(--line);border-radius:10px;padding:6px 8px;display:none;z-index:5;box-shadow:0 2px 10px #0002}
+#diag .drow{display:flex;justify-content:space-between;align-items:center;gap:6px}#diag .btn{min-height:34px;padding:4px 8px;font-size:12px}
+#diag pre{margin:4px 0 0;font:11px/1.35 ui-monospace,Menlo,monospace;white-space:pre-wrap;word-break:break-word}
+#diagText{display:none;width:100%;height:120px;font:10px monospace}
+#err{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:16px;background:var(--bg);z-index:20}#err.show{display:flex}
+#err>div{max-width:520px;background:#fffaf2;border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+#err h2{margin:0 0 6px;font-size:18px;color:var(--acc)}#err pre{font:11px/1.3 ui-monospace,monospace;white-space:pre-wrap;word-break:break-all;background:#f1ebe1;border-radius:8px;padding:6px}
+#err .erow{display:flex;gap:6px;flex-wrap:wrap}
+#zoneLegend{position:fixed;top:56px;right:10px;display:none;flex-direction:column;align-items:flex-end;gap:4px;pointer-events:none}
+#zoneLegend span{font-size:12px;font-weight:700;color:#2b2622;border:2px solid;border-radius:10px;padding:1px 8px;width:max-content}
+#rotHint{display:none;position:fixed;top:52px;left:50%;transform:translateX(-50%);font-size:12px;background:#fffaf2;border:1px solid var(--line);border-radius:10px;padding:3px 10px;pointer-events:none;white-space:nowrap}
+body.short #rotHint{display:block}body.short #dock .row:last-child{display:none}body.short header h1 small{display:none}
+@media (min-width:700px){.pill{font-size:15px;padding:5px 12px;line-height:20px}}
+@media (min-width:900px){#dock{left:50%;right:auto;transform:translateX(-50%);bottom:10px;width:min(640px,calc(var(--pageW,100vw) - 24px));background:#f4efe6ee;border-radius:16px;padding:10px;box-shadow:0 4px 18px #0002}}
+</style>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/jsm/"}}</script>
+</head>
+<body>
+<div id="stage"></div>
+<div id="overlay"><svg id="leads"></svg><div id="pills"></div></div>
+<header>
+  <h1><span id="tTitle">El cos humà 3D</span><small id="tSub">Musculatura · prova M2 (v0.1)</small></h1>
+  <button class="btn" id="bDiag" aria-label="Diagnòstic" title="Diagnòstic">⚙︎</button>
+  <select id="lang" aria-label="Idioma"><option value="ca">CA</option><option value="es">ES</option><option value="zh">中</option><option value="en">EN</option></select>
+  <a id="nav" href="index.html" title="Esquelet">🦴</a>
+  <a id="book" href="../index.html">📖 2D</a>
+</header>
+<div id="zoneLegend"></div>
+<div id="rotHint">📱↻ Gira el mòbil en vertical per veure els noms · 竖屏显示名称</div>
+<div id="dock">
+  <div id="card"><button class="x" id="cardX" aria-label="Tanca">×</button><h2 id="cName"></h2><div class="ca" id="cCa"></div><p id="cDef"></p></div>
+    <div class="row"><button class="btn on" id="bFront"></button><button class="btn" id="bBack"></button><button class="btn on" id="bLabels"></button><button class="btn" id="bZones"></button><button class="btn" id="bReset" aria-label="Reset">↺</button></div>
+  <div class="row"><button class="btn" id="bPair"></button></div>
+  <div class="row" style="justify-content:space-between;font-size:11px;color:var(--mut)"><span id="tHint"></span><a href="#" id="bCredits" style="color:var(--mut)">Crèdits · CC BY-SA</a></div>
+</div>
+<div id="loading"><div id="tLoading">Carregant els músculs…</div><div class="bar"><i id="loadBar"></i></div></div>
+<div id="credits"><div>
+  <b>Model 3D</b><br>BodyParts3D, © The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan
+  (<a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en" target="_blank" rel="noopener">CC BY-SA 2.1 JP</a>).
+  Font: BodyParts3D 3.0 (Mitsuhashi et al., NAR 2009, <a href="https://doi.org/10.1093/nar/gkn613" target="_blank" rel="noopener">doi:10.1093/nar/gkn613</a>), via
+  <a href="https://github.com/organui/skeleton-3d" target="_blank" rel="noopener">OrganUI Skeleton</a> i
+  <a href="https://github.com/organui/muscles-3d" target="_blank" rel="noopener">OrganUI Muscles</a> (adaptació: selecció, simplificació, eixos, colors).<br>
+  <b>Modificacions de COS-HUMA:</b> els 15 músculs del llibre (p.27) separats per costat, la resta agrupats com a «altres músculs», simplificats (≤0,4 mm), quantitzats. El model modificat es publica amb la mateixa llicència CC BY-SA 2.1 JP. DBCLS no avala aquesta aplicació.<br>
+  <b>Codi:</b> three.js (MIT). Ús educatiu; no és una eina mèdica.<br><br>
+  <button class="btn" id="creditsX">OK</button></div></div>
+<div id="diag"><div class="drow"><b>Diagnòstic</b><span><button class="btn" id="bBench">▶ FPS 5 s</button> <button class="btn" id="bCopy" title="Copia l'informe">📋</button></span></div><pre id="diagBody"></pre><textarea id="diagText" readonly></textarea></div>
+<div id="err"><div><h2 id="errT">No s'ha pogut carregar el model 3D</h2><p id="errMsg"></p><pre id="errDetail"></pre>
+  <div class="erow"><button class="btn" id="errRetry">↻ Torna-ho a provar</button><button class="btn" id="errEmb">🧪 Model de diagnòstic</button><a class="btn" href="../index.html">📖 Llibre 2D</a></div></div></div>
+<script>
+// Classic script: runs even if the ES module or three.js fails to load, so the screen is never left blank.
+(function () {
+  var MSG = {
+    webgl: "Aquest navegador no pot mostrar 3D (WebGL no disponible o desactivat). Prova Chrome/Safari actualitzat o el llibre 2D. · 此浏览器无法显示 3D（WebGL 不可用）",
+    data: "No s'han pogut carregar les dades del curs. · 课程数据加载失败",
+    model: "No s'ha pogut carregar el model dels músculs. · 肌肉模型加载失败",
+    contextlost: "La targeta gràfica ha reiniciat la vista 3D. Torna a carregar la pàgina. · 图形环境丢失，请刷新",
+    script: "Error en iniciar l'aplicació. · 程序启动出错",
+    timeout: "L'aplicació no ha arrencat en 60 s (xarxa lenta o fitxers bloquejats). · 60 秒内未能启动"
+  };
+  var shown = false;
+  window.__coshumaFail = function (stage, err) {
+    if (shown && stage !== 'contextlost') return; shown = true;
+    window.__coshumaError = { stage: stage, message: String(err && err.message || err) };
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('errMsg').textContent = MSG[stage] || MSG.script;
+    document.getElementById('errDetail').textContent = '[' + stage + '] ' + (err && err.message || err) + '\n' + navigator.userAgent;
+    document.getElementById('errEmb').style.display = (stage === 'model' && !/model=embedded/.test(location.search) && !/embedded/.test(location.hash)) ? '' : 'none';
+    document.getElementById('err').classList.add('show');
+  };
+  window.addEventListener('error', function (e) { if (!window.__coshumaReady) window.__coshumaFail('script', e.message || (e.target && e.target.src) || 'error'); }, true);
+  window.addEventListener('unhandledrejection', function (e) { if (!window.__coshumaReady) window.__coshumaFail('script', e.reason); });
+  setTimeout(function () { if (!window.__coshumaReady) window.__coshumaFail('timeout', 'no ready after 60 s'); }, 60000);
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('errRetry').onclick = function () { location.reload(); };
+    document.getElementById('errEmb').onclick = function () { location.hash = 'embedded'; location.reload(); };
+  });
+})();
+</script>
+<script type="module" src="./musc.js?v=m2-0.1"></script>
+</body>
+</html>

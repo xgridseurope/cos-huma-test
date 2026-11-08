@@ -1,0 +1,6221 @@
+{
+ "version": "M2-0.1",
+ "env": "headless Chrome + SwiftShader, emulated viewports — SIMULATED, not real devices",
+ "date": "2026-11-08",
+ "results": {
+  "android": {
+   "errors": [],
+   "autoPair": false,
+   "meshInfo": [
+    {
+     "key": "abdominal",
+     "side": "C",
+     "structures": [
+      "rectus-abdominis",
+      "external-oblique",
+      "internal-oblique",
+      "transversus-abdominis"
+     ]
+    },
+    {
+     "key": "altresm",
+     "side": "C",
+     "structures": [
+      "frontalis",
+      "occipitalis",
+      "epicranial-aponeurosis",
+      "temporoparietalis",
+      "corrugator-supercilii",
+      "procerus",
+      "nasalis",
+      "depressor-septi-nasi",
+      "levator-labii-superioris-alaeque-nasi",
+      "levator-labii-superioris",
+      "zygomaticus-minor",
+      "zygomaticus-major",
+      "levator-anguli-oris",
+      "risorius",
+      "orbicularis-oris",
+      "buccinator",
+      "depressor-anguli-oris",
+      "depressor-labii-inferioris",
+      "mentalis",
+      "temporalis",
+      "medial-pterygoid",
+      "lateral-pterygoid",
+      "platysma",
+      "digastric",
+      "stylohyoid",
+      "mylohyoid",
+      "geniohyoid",
+      "sternohyoid",
+      "omohyoid",
+      "sternothyroid",
+      "thyrohyoid",
+      "scalenus-anterior",
+      "scalenus-medius",
+      "scalenus-posterior",
+      "longus-colli",
+      "longus-capitis",
+      "rectus-capitis-anterior",
+      "rectus-capitis-lateralis",
+      "levator-scapulae",
+      "rhomboid-major",
+      "rhomboid-minor",
+      "serratus-posterior-superior",
+      "serratus-posterior-inferior",
+      "splenius-capitis",
+      "splenius-cervicis",
+      "iliocostalis",
+      "longissimus",
+      "spinalis",
+      "semispinalis",
+      "multifidus",
+      "rotatores",
+      "interspinales",
+      "intertransversarii",
+      "levatores-costarum",
+      "rectus-capitis-posterior-major",
+      "rectus-capitis-posterior-minor",
+      "obliquus-capitis-superior",
+      "obliquus-capitis-inferior",
+      "pectoralis-minor",
+      "subclavius",
+      "serratus-anterior",
+      "external-intercostals",
+      "internal-intercostals",
+      "innermost-intercostals",
+      "transversus-thoracis",
+      "diaphragm",
+      "pyramidalis",
+      "linea-alba",
+      "quadratus-lumborum",
+      "pubococcygeus",
+      "puborectalis",
+      "iliococcygeus",
+      "coccygeus",
+      "external-anal-sphincter",
+      "supraspinatus",
+      "infraspinatus",
+      "teres-minor",
+      "teres-major",
+      "subscapularis",
+      "brachialis",
+      "coracobrachialis",
+      "anconeus",
+      "brachioradialis",
+      "pronator-teres",
+      "flexor-carpi-radialis",
+      "palmaris-longus",
+      "flexor-carpi-ulnaris",
+      "flexor-digitorum-superficialis",
+      "flexor-digitorum-profundus",
+      "flexor-pollicis-longus",
+      "pronator-quadratus",
+      "supinator",
+      "extensor-carpi-radialis-longus",
+      "extensor-carpi-radialis-brevis",
+      "extensor-digitorum",
+      "extensor-digiti-minimi",
+      "extensor-carpi-ulnaris",
+      "abductor-pollicis-longus",
+      "extensor-pollicis-brevis",
+      "extensor-pollicis-longus",
+      "extensor-indicis",
+      "abductor-pollicis-brevis",
+      "flexor-pollicis-brevis",
+      "opponens-pollicis",
+      "adductor-pollicis",
+      "abductor-digiti-minimi-hand",
+      "flexor-digiti-minimi-brevis-hand",
+      "opponens-digiti-minimi-hand",
+      "lumbricals-hand",
+      "palmar-interossei",
+      "dorsal-interossei-hand",
+      "iliacus",
+      "psoas-major",
+      "gluteus-medius",
+      "gluteus-minimus",
+      "tensor-fasciae-latae",
+      "piriformis",
+      "gemellus-superior",
+      "obturator-internus",
+      "gemellus-inferior",
+      "quadratus-femoris",
+      "obturator-externus",
+      "sartorius",
+      "pectineus",
+      "adductor-longus",
+      "adductor-brevis",
+      "adductor-magnus",
+      "adductor-minimus",
+      "gracilis",
+      "semitendinosus",
+      "semimembranosus",
+      "extensor-hallucis-longus",
+      "extensor-digitorum-longus",
+      "fibularis-tertius",
+      "fibularis-longus",
+      "fibularis-brevis",
+      "soleus",
+      "plantaris",
+      "calcaneal-tendon",
+      "popliteus",
+      "flexor-digitorum-longus",
+      "flexor-hallucis-longus",
+      "tibialis-posterior",
+      "extensor-digitorum-brevis",
+      "extensor-hallucis-brevis",
+      "abductor-hallucis",
+      "flexor-digitorum-brevis",
+      "abductor-digiti-minimi-foot",
+      "quadratus-plantae",
+      "lumbricals-foot",
+      "flexor-hallucis-brevis",
+      "adductor-hallucis",
+      "flexor-digiti-minimi-brevis-foot",
+      "opponens-digiti-minimi-foot",
+      "plantar-interossei",
+      "dorsal-interossei-foot"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "L",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "R",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "L",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "R",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "L",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "R",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "L",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "R",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "L",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "R",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "L",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "R",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "L",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "R",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "L",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "R",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "L",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "R",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "L",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "R",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "L",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "R",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "L",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "R",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "trapezi",
+     "side": "C",
+     "structures": [
+      "trapezius"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "L",
+     "structures": [
+      "triceps-brachii"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "R",
+     "structures": [
+      "triceps-brachii"
+     ]
+    }
+   ],
+   "states": {
+    "single-front": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps",
+        "dorsal"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "orbic"
+       ],
+       "bodyTapOk": 2,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "26/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-back": {
+     "count": 6,
+     "expected": 6,
+     "rows": [
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "triceps",
+        "abdominal"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 6,
+      "zones": 6,
+      "ends": 6,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 6,
+      "bodyTaps": "18/18",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front-turned": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "ecm"
+       ],
+       "bodyTapOk": 1,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "orbic"
+       ],
+       "bodyTapOk": 2,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "24/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    }
+   }
+  },
+  "ipad": {
+   "errors": [],
+   "autoPair": false,
+   "meshInfo": [
+    {
+     "key": "abdominal",
+     "side": "C",
+     "structures": [
+      "rectus-abdominis",
+      "external-oblique",
+      "internal-oblique",
+      "transversus-abdominis"
+     ]
+    },
+    {
+     "key": "altresm",
+     "side": "C",
+     "structures": [
+      "frontalis",
+      "occipitalis",
+      "epicranial-aponeurosis",
+      "temporoparietalis",
+      "corrugator-supercilii",
+      "procerus",
+      "nasalis",
+      "depressor-septi-nasi",
+      "levator-labii-superioris-alaeque-nasi",
+      "levator-labii-superioris",
+      "zygomaticus-minor",
+      "zygomaticus-major",
+      "levator-anguli-oris",
+      "risorius",
+      "orbicularis-oris",
+      "buccinator",
+      "depressor-anguli-oris",
+      "depressor-labii-inferioris",
+      "mentalis",
+      "temporalis",
+      "medial-pterygoid",
+      "lateral-pterygoid",
+      "platysma",
+      "digastric",
+      "stylohyoid",
+      "mylohyoid",
+      "geniohyoid",
+      "sternohyoid",
+      "omohyoid",
+      "sternothyroid",
+      "thyrohyoid",
+      "scalenus-anterior",
+      "scalenus-medius",
+      "scalenus-posterior",
+      "longus-colli",
+      "longus-capitis",
+      "rectus-capitis-anterior",
+      "rectus-capitis-lateralis",
+      "levator-scapulae",
+      "rhomboid-major",
+      "rhomboid-minor",
+      "serratus-posterior-superior",
+      "serratus-posterior-inferior",
+      "splenius-capitis",
+      "splenius-cervicis",
+      "iliocostalis",
+      "longissimus",
+      "spinalis",
+      "semispinalis",
+      "multifidus",
+      "rotatores",
+      "interspinales",
+      "intertransversarii",
+      "levatores-costarum",
+      "rectus-capitis-posterior-major",
+      "rectus-capitis-posterior-minor",
+      "obliquus-capitis-superior",
+      "obliquus-capitis-inferior",
+      "pectoralis-minor",
+      "subclavius",
+      "serratus-anterior",
+      "external-intercostals",
+      "internal-intercostals",
+      "innermost-intercostals",
+      "transversus-thoracis",
+      "diaphragm",
+      "pyramidalis",
+      "linea-alba",
+      "quadratus-lumborum",
+      "pubococcygeus",
+      "puborectalis",
+      "iliococcygeus",
+      "coccygeus",
+      "external-anal-sphincter",
+      "supraspinatus",
+      "infraspinatus",
+      "teres-minor",
+      "teres-major",
+      "subscapularis",
+      "brachialis",
+      "coracobrachialis",
+      "anconeus",
+      "brachioradialis",
+      "pronator-teres",
+      "flexor-carpi-radialis",
+      "palmaris-longus",
+      "flexor-carpi-ulnaris",
+      "flexor-digitorum-superficialis",
+      "flexor-digitorum-profundus",
+      "flexor-pollicis-longus",
+      "pronator-quadratus",
+      "supinator",
+      "extensor-carpi-radialis-longus",
+      "extensor-carpi-radialis-brevis",
+      "extensor-digitorum",
+      "extensor-digiti-minimi",
+      "extensor-carpi-ulnaris",
+      "abductor-pollicis-longus",
+      "extensor-pollicis-brevis",
+      "extensor-pollicis-longus",
+      "extensor-indicis",
+      "abductor-pollicis-brevis",
+      "flexor-pollicis-brevis",
+      "opponens-pollicis",
+      "adductor-pollicis",
+      "abductor-digiti-minimi-hand",
+      "flexor-digiti-minimi-brevis-hand",
+      "opponens-digiti-minimi-hand",
+      "lumbricals-hand",
+      "palmar-interossei",
+      "dorsal-interossei-hand",
+      "iliacus",
+      "psoas-major",
+      "gluteus-medius",
+      "gluteus-minimus",
+      "tensor-fasciae-latae",
+      "piriformis",
+      "gemellus-superior",
+      "obturator-internus",
+      "gemellus-inferior",
+      "quadratus-femoris",
+      "obturator-externus",
+      "sartorius",
+      "pectineus",
+      "adductor-longus",
+      "adductor-brevis",
+      "adductor-magnus",
+      "adductor-minimus",
+      "gracilis",
+      "semitendinosus",
+      "semimembranosus",
+      "extensor-hallucis-longus",
+      "extensor-digitorum-longus",
+      "fibularis-tertius",
+      "fibularis-longus",
+      "fibularis-brevis",
+      "soleus",
+      "plantaris",
+      "calcaneal-tendon",
+      "popliteus",
+      "flexor-digitorum-longus",
+      "flexor-hallucis-longus",
+      "tibialis-posterior",
+      "extensor-digitorum-brevis",
+      "extensor-hallucis-brevis",
+      "abductor-hallucis",
+      "flexor-digitorum-brevis",
+      "abductor-digiti-minimi-foot",
+      "quadratus-plantae",
+      "lumbricals-foot",
+      "flexor-hallucis-brevis",
+      "adductor-hallucis",
+      "flexor-digiti-minimi-brevis-foot",
+      "opponens-digiti-minimi-foot",
+      "plantar-interossei",
+      "dorsal-interossei-foot"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "L",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "R",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "L",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "R",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "L",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "R",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "L",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "R",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "L",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "R",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "L",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "R",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "L",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "R",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "L",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "R",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "L",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "R",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "L",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "R",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "L",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "R",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "L",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "R",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "trapezi",
+     "side": "C",
+     "structures": [
+      "trapezius"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "L",
+     "structures": [
+      "triceps-brachii"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "R",
+     "structures": [
+      "triceps-brachii"
+     ]
+    }
+   ],
+   "states": {
+    "pair": {
+     "count": 15,
+     "expected": 15,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps",
+        "dorsal"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 15,
+      "zones": 15,
+      "ends": 15,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 15,
+      "bodyTaps": "45/45",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "pair-turned": {
+     "count": 15,
+     "expected": 15,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "triceps",
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 15,
+      "zones": 15,
+      "ends": 15,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 15,
+      "bodyTaps": "45/45",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps",
+        "dorsal"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "27/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-back": {
+     "count": 6,
+     "expected": 6,
+     "rows": [
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "triceps",
+        "abdominal"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 6,
+      "zones": 6,
+      "ends": 6,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 6,
+      "bodyTaps": "18/18",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front-turned": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "27/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    }
+   }
+  },
+  "ipadL": {
+   "errors": [],
+   "autoPair": true,
+   "meshInfo": [
+    {
+     "key": "abdominal",
+     "side": "C",
+     "structures": [
+      "rectus-abdominis",
+      "external-oblique",
+      "internal-oblique",
+      "transversus-abdominis"
+     ]
+    },
+    {
+     "key": "altresm",
+     "side": "C",
+     "structures": [
+      "frontalis",
+      "occipitalis",
+      "epicranial-aponeurosis",
+      "temporoparietalis",
+      "corrugator-supercilii",
+      "procerus",
+      "nasalis",
+      "depressor-septi-nasi",
+      "levator-labii-superioris-alaeque-nasi",
+      "levator-labii-superioris",
+      "zygomaticus-minor",
+      "zygomaticus-major",
+      "levator-anguli-oris",
+      "risorius",
+      "orbicularis-oris",
+      "buccinator",
+      "depressor-anguli-oris",
+      "depressor-labii-inferioris",
+      "mentalis",
+      "temporalis",
+      "medial-pterygoid",
+      "lateral-pterygoid",
+      "platysma",
+      "digastric",
+      "stylohyoid",
+      "mylohyoid",
+      "geniohyoid",
+      "sternohyoid",
+      "omohyoid",
+      "sternothyroid",
+      "thyrohyoid",
+      "scalenus-anterior",
+      "scalenus-medius",
+      "scalenus-posterior",
+      "longus-colli",
+      "longus-capitis",
+      "rectus-capitis-anterior",
+      "rectus-capitis-lateralis",
+      "levator-scapulae",
+      "rhomboid-major",
+      "rhomboid-minor",
+      "serratus-posterior-superior",
+      "serratus-posterior-inferior",
+      "splenius-capitis",
+      "splenius-cervicis",
+      "iliocostalis",
+      "longissimus",
+      "spinalis",
+      "semispinalis",
+      "multifidus",
+      "rotatores",
+      "interspinales",
+      "intertransversarii",
+      "levatores-costarum",
+      "rectus-capitis-posterior-major",
+      "rectus-capitis-posterior-minor",
+      "obliquus-capitis-superior",
+      "obliquus-capitis-inferior",
+      "pectoralis-minor",
+      "subclavius",
+      "serratus-anterior",
+      "external-intercostals",
+      "internal-intercostals",
+      "innermost-intercostals",
+      "transversus-thoracis",
+      "diaphragm",
+      "pyramidalis",
+      "linea-alba",
+      "quadratus-lumborum",
+      "pubococcygeus",
+      "puborectalis",
+      "iliococcygeus",
+      "coccygeus",
+      "external-anal-sphincter",
+      "supraspinatus",
+      "infraspinatus",
+      "teres-minor",
+      "teres-major",
+      "subscapularis",
+      "brachialis",
+      "coracobrachialis",
+      "anconeus",
+      "brachioradialis",
+      "pronator-teres",
+      "flexor-carpi-radialis",
+      "palmaris-longus",
+      "flexor-carpi-ulnaris",
+      "flexor-digitorum-superficialis",
+      "flexor-digitorum-profundus",
+      "flexor-pollicis-longus",
+      "pronator-quadratus",
+      "supinator",
+      "extensor-carpi-radialis-longus",
+      "extensor-carpi-radialis-brevis",
+      "extensor-digitorum",
+      "extensor-digiti-minimi",
+      "extensor-carpi-ulnaris",
+      "abductor-pollicis-longus",
+      "extensor-pollicis-brevis",
+      "extensor-pollicis-longus",
+      "extensor-indicis",
+      "abductor-pollicis-brevis",
+      "flexor-pollicis-brevis",
+      "opponens-pollicis",
+      "adductor-pollicis",
+      "abductor-digiti-minimi-hand",
+      "flexor-digiti-minimi-brevis-hand",
+      "opponens-digiti-minimi-hand",
+      "lumbricals-hand",
+      "palmar-interossei",
+      "dorsal-interossei-hand",
+      "iliacus",
+      "psoas-major",
+      "gluteus-medius",
+      "gluteus-minimus",
+      "tensor-fasciae-latae",
+      "piriformis",
+      "gemellus-superior",
+      "obturator-internus",
+      "gemellus-inferior",
+      "quadratus-femoris",
+      "obturator-externus",
+      "sartorius",
+      "pectineus",
+      "adductor-longus",
+      "adductor-brevis",
+      "adductor-magnus",
+      "adductor-minimus",
+      "gracilis",
+      "semitendinosus",
+      "semimembranosus",
+      "extensor-hallucis-longus",
+      "extensor-digitorum-longus",
+      "fibularis-tertius",
+      "fibularis-longus",
+      "fibularis-brevis",
+      "soleus",
+      "plantaris",
+      "calcaneal-tendon",
+      "popliteus",
+      "flexor-digitorum-longus",
+      "flexor-hallucis-longus",
+      "tibialis-posterior",
+      "extensor-digitorum-brevis",
+      "extensor-hallucis-brevis",
+      "abductor-hallucis",
+      "flexor-digitorum-brevis",
+      "abductor-digiti-minimi-foot",
+      "quadratus-plantae",
+      "lumbricals-foot",
+      "flexor-hallucis-brevis",
+      "adductor-hallucis",
+      "flexor-digiti-minimi-brevis-foot",
+      "opponens-digiti-minimi-foot",
+      "plantar-interossei",
+      "dorsal-interossei-foot"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "L",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "R",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "L",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "R",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "L",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "R",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "L",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "R",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "L",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "R",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "L",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "R",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "L",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "R",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "L",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "R",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "L",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "R",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "L",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "R",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "L",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "R",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "L",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "R",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "trapezi",
+     "side": "C",
+     "structures": [
+      "trapezius"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "L",
+     "structures": [
+      "triceps-brachii"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "R",
+     "structures": [
+      "triceps-brachii"
+     ]
+    }
+   ],
+   "states": {
+    "pair": {
+     "count": 15,
+     "expected": 15,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps",
+        "dorsal"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 15,
+      "zones": 15,
+      "ends": 15,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 15,
+      "bodyTaps": "45/45",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "pair-turned": {
+     "count": 15,
+     "expected": 15,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 15,
+      "zones": 15,
+      "ends": 15,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 15,
+      "bodyTaps": "45/45",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "27/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-back": {
+     "count": 6,
+     "expected": 6,
+     "rows": [
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 6,
+      "zones": 6,
+      "ends": 6,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 6,
+      "bodyTaps": "18/18",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front-turned": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "27/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    }
+   }
+  },
+  "desktop": {
+   "errors": [],
+   "autoPair": true,
+   "meshInfo": [
+    {
+     "key": "abdominal",
+     "side": "C",
+     "structures": [
+      "rectus-abdominis",
+      "external-oblique",
+      "internal-oblique",
+      "transversus-abdominis"
+     ]
+    },
+    {
+     "key": "altresm",
+     "side": "C",
+     "structures": [
+      "frontalis",
+      "occipitalis",
+      "epicranial-aponeurosis",
+      "temporoparietalis",
+      "corrugator-supercilii",
+      "procerus",
+      "nasalis",
+      "depressor-septi-nasi",
+      "levator-labii-superioris-alaeque-nasi",
+      "levator-labii-superioris",
+      "zygomaticus-minor",
+      "zygomaticus-major",
+      "levator-anguli-oris",
+      "risorius",
+      "orbicularis-oris",
+      "buccinator",
+      "depressor-anguli-oris",
+      "depressor-labii-inferioris",
+      "mentalis",
+      "temporalis",
+      "medial-pterygoid",
+      "lateral-pterygoid",
+      "platysma",
+      "digastric",
+      "stylohyoid",
+      "mylohyoid",
+      "geniohyoid",
+      "sternohyoid",
+      "omohyoid",
+      "sternothyroid",
+      "thyrohyoid",
+      "scalenus-anterior",
+      "scalenus-medius",
+      "scalenus-posterior",
+      "longus-colli",
+      "longus-capitis",
+      "rectus-capitis-anterior",
+      "rectus-capitis-lateralis",
+      "levator-scapulae",
+      "rhomboid-major",
+      "rhomboid-minor",
+      "serratus-posterior-superior",
+      "serratus-posterior-inferior",
+      "splenius-capitis",
+      "splenius-cervicis",
+      "iliocostalis",
+      "longissimus",
+      "spinalis",
+      "semispinalis",
+      "multifidus",
+      "rotatores",
+      "interspinales",
+      "intertransversarii",
+      "levatores-costarum",
+      "rectus-capitis-posterior-major",
+      "rectus-capitis-posterior-minor",
+      "obliquus-capitis-superior",
+      "obliquus-capitis-inferior",
+      "pectoralis-minor",
+      "subclavius",
+      "serratus-anterior",
+      "external-intercostals",
+      "internal-intercostals",
+      "innermost-intercostals",
+      "transversus-thoracis",
+      "diaphragm",
+      "pyramidalis",
+      "linea-alba",
+      "quadratus-lumborum",
+      "pubococcygeus",
+      "puborectalis",
+      "iliococcygeus",
+      "coccygeus",
+      "external-anal-sphincter",
+      "supraspinatus",
+      "infraspinatus",
+      "teres-minor",
+      "teres-major",
+      "subscapularis",
+      "brachialis",
+      "coracobrachialis",
+      "anconeus",
+      "brachioradialis",
+      "pronator-teres",
+      "flexor-carpi-radialis",
+      "palmaris-longus",
+      "flexor-carpi-ulnaris",
+      "flexor-digitorum-superficialis",
+      "flexor-digitorum-profundus",
+      "flexor-pollicis-longus",
+      "pronator-quadratus",
+      "supinator",
+      "extensor-carpi-radialis-longus",
+      "extensor-carpi-radialis-brevis",
+      "extensor-digitorum",
+      "extensor-digiti-minimi",
+      "extensor-carpi-ulnaris",
+      "abductor-pollicis-longus",
+      "extensor-pollicis-brevis",
+      "extensor-pollicis-longus",
+      "extensor-indicis",
+      "abductor-pollicis-brevis",
+      "flexor-pollicis-brevis",
+      "opponens-pollicis",
+      "adductor-pollicis",
+      "abductor-digiti-minimi-hand",
+      "flexor-digiti-minimi-brevis-hand",
+      "opponens-digiti-minimi-hand",
+      "lumbricals-hand",
+      "palmar-interossei",
+      "dorsal-interossei-hand",
+      "iliacus",
+      "psoas-major",
+      "gluteus-medius",
+      "gluteus-minimus",
+      "tensor-fasciae-latae",
+      "piriformis",
+      "gemellus-superior",
+      "obturator-internus",
+      "gemellus-inferior",
+      "quadratus-femoris",
+      "obturator-externus",
+      "sartorius",
+      "pectineus",
+      "adductor-longus",
+      "adductor-brevis",
+      "adductor-magnus",
+      "adductor-minimus",
+      "gracilis",
+      "semitendinosus",
+      "semimembranosus",
+      "extensor-hallucis-longus",
+      "extensor-digitorum-longus",
+      "fibularis-tertius",
+      "fibularis-longus",
+      "fibularis-brevis",
+      "soleus",
+      "plantaris",
+      "calcaneal-tendon",
+      "popliteus",
+      "flexor-digitorum-longus",
+      "flexor-hallucis-longus",
+      "tibialis-posterior",
+      "extensor-digitorum-brevis",
+      "extensor-hallucis-brevis",
+      "abductor-hallucis",
+      "flexor-digitorum-brevis",
+      "abductor-digiti-minimi-foot",
+      "quadratus-plantae",
+      "lumbricals-foot",
+      "flexor-hallucis-brevis",
+      "adductor-hallucis",
+      "flexor-digiti-minimi-brevis-foot",
+      "opponens-digiti-minimi-foot",
+      "plantar-interossei",
+      "dorsal-interossei-foot"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "L",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "besso",
+     "side": "R",
+     "structures": [
+      "gastrocnemius"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "L",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "bfem",
+     "side": "R",
+     "structures": [
+      "biceps-femoris"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "L",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "biceps",
+     "side": "R",
+     "structures": [
+      "biceps-brachii"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "L",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "deltoide",
+     "side": "R",
+     "structures": [
+      "deltoid"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "L",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "dorsal",
+     "side": "R",
+     "structures": [
+      "latissimus-dorsi"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "L",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "ecm",
+     "side": "R",
+     "structures": [
+      "sternocleidomastoid"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "L",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "gluti",
+     "side": "R",
+     "structures": [
+      "gluteus-maximus"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "L",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "masseter",
+     "side": "R",
+     "structures": [
+      "masseter"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "L",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "orbic",
+     "side": "R",
+     "structures": [
+      "orbicularis-oculi"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "L",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "pectoral",
+     "side": "R",
+     "structures": [
+      "pectoralis-major"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "L",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "quadriceps",
+     "side": "R",
+     "structures": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis",
+      "vastus-intermedius"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "L",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "tibial",
+     "side": "R",
+     "structures": [
+      "tibialis-anterior"
+     ]
+    },
+    {
+     "key": "trapezi",
+     "side": "C",
+     "structures": [
+      "trapezius"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "L",
+     "structures": [
+      "triceps-brachii"
+     ]
+    },
+    {
+     "key": "triceps",
+     "side": "R",
+     "structures": [
+      "triceps-brachii"
+     ]
+    }
+   ],
+   "states": {
+    "pair": {
+     "count": 15,
+     "expected": 15,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps",
+        "dorsal"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 15,
+      "zones": 15,
+      "ends": 15,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 15,
+      "bodyTaps": "45/45",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "pair-turned": {
+     "count": 15,
+     "expected": 15,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        null,
+        "trapezi"
+       ],
+       "bodyTapOk": 2,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 1,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 15,
+      "zones": 15,
+      "ends": 15,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 15,
+      "bodyTaps": "44/45",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "27/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-back": {
+     "count": 6,
+     "expected": 6,
+     "rows": [
+      {
+       "k": "trapezi",
+       "text": "trapezi",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "trapezi",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide"
+       ],
+       "lit": [
+        "trapezi"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "trapezi",
+        "trapezi",
+        "trapezi"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "dorsal",
+       "text": "dorsal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "dorsal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "triceps"
+       ],
+       "lit": [
+        "dorsal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "dorsal",
+        "dorsal",
+        "dorsal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "gluti",
+       "text": "gluti",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "gluti",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "gluti"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "gluti",
+        "gluti",
+        "gluti"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "triceps",
+       "text": "tríceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "triceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "triceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "triceps",
+        "triceps",
+        "triceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "bfem",
+       "text": "bíceps femoral",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "bfem",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "quadriceps"
+       ],
+       "lit": [
+        "bfem"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "bfem",
+        "bfem",
+        "bfem"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "besso",
+       "text": "bessó",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "besso",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "besso"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "besso",
+        "besso",
+        "besso"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 6,
+      "zones": 6,
+      "ends": 6,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 6,
+      "bodyTaps": "18/18",
+      "overlaps": 0,
+      "setOk": true
+     }
+    },
+    "single-front-turned": {
+     "count": 9,
+     "expected": 9,
+     "rows": [
+      {
+       "k": "orbic",
+       "text": "orbicular de les parpelles",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "orbic",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "orbic"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "orbic",
+        "orbic",
+        "orbic"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "ecm",
+       "text": "esternoclidomastoidal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "ecm",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "ecm"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "ecm",
+        "ecm",
+        "ecm"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "pectoral",
+       "text": "pectoral",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "pectoral",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [
+        "deltoide",
+        "biceps"
+       ],
+       "lit": [
+        "pectoral"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "pectoral",
+        "pectoral",
+        "pectoral"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "abdominal",
+       "text": "abdominal",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "abdominal",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "abdominal"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "abdominal",
+        "abdominal",
+        "abdominal"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "quadriceps",
+       "text": "quàdriceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "quadriceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "quadriceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "quadriceps",
+        "quadriceps",
+        "quadriceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "masseter",
+       "text": "masseter",
+       "nameOk": true,
+       "zone": "cap",
+       "zoneOk": true,
+       "end": "masseter",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "masseter"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "masseter",
+        "masseter",
+        "masseter"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "deltoide",
+       "text": "deltoide",
+       "nameOk": true,
+       "zone": "tronc",
+       "zoneOk": true,
+       "end": "deltoide",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "deltoide"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "deltoide",
+        "deltoide",
+        "deltoide"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "biceps",
+       "text": "bíceps",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "biceps",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "biceps"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "biceps",
+        "biceps",
+        "biceps"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      },
+      {
+       "k": "tibial",
+       "text": "tibial",
+       "nameOk": true,
+       "zone": "ext",
+       "zoneOk": true,
+       "end": "tibial",
+       "fig": 0,
+       "endOk": true,
+       "crosses": [],
+       "lit": [
+        "tibial"
+       ],
+       "litOk": true,
+       "bodyTaps": [
+        "tibial",
+        "tibial",
+        "tibial"
+       ],
+       "bodyTapOk": 3,
+       "bodyTapN": 3
+      }
+     ],
+     "pass": {
+      "names": 9,
+      "zones": 9,
+      "ends": 9,
+      "endWrong": 0,
+      "hidden": 0,
+      "labelTaps": 9,
+      "bodyTaps": "27/27",
+      "overlaps": 0,
+      "setOk": true
+     }
+    }
+   }
+  }
+ },
+ "summary": {
+  "android": {
+   "single-front": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "26/27",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-back": {
+    "names": 6,
+    "zones": 6,
+    "ends": 6,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 6,
+    "bodyTaps": "18/18",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front-turned": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "24/27",
+    "overlaps": 0,
+    "setOk": true
+   }
+  },
+  "ipad": {
+   "pair": {
+    "names": 15,
+    "zones": 15,
+    "ends": 15,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 15,
+    "bodyTaps": "45/45",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "pair-turned": {
+    "names": 15,
+    "zones": 15,
+    "ends": 15,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 15,
+    "bodyTaps": "45/45",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "27/27",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-back": {
+    "names": 6,
+    "zones": 6,
+    "ends": 6,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 6,
+    "bodyTaps": "18/18",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front-turned": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "27/27",
+    "overlaps": 0,
+    "setOk": true
+   }
+  },
+  "ipadL": {
+   "pair": {
+    "names": 15,
+    "zones": 15,
+    "ends": 15,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 15,
+    "bodyTaps": "45/45",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "pair-turned": {
+    "names": 15,
+    "zones": 15,
+    "ends": 15,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 15,
+    "bodyTaps": "45/45",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "27/27",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-back": {
+    "names": 6,
+    "zones": 6,
+    "ends": 6,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 6,
+    "bodyTaps": "18/18",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front-turned": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "27/27",
+    "overlaps": 0,
+    "setOk": true
+   }
+  },
+  "desktop": {
+   "pair": {
+    "names": 15,
+    "zones": 15,
+    "ends": 15,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 15,
+    "bodyTaps": "45/45",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "pair-turned": {
+    "names": 15,
+    "zones": 15,
+    "ends": 15,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 15,
+    "bodyTaps": "44/45",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "27/27",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-back": {
+    "names": 6,
+    "zones": 6,
+    "ends": 6,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 6,
+    "bodyTaps": "18/18",
+    "overlaps": 0,
+    "setOk": true
+   },
+   "single-front-turned": {
+    "names": 9,
+    "zones": 9,
+    "ends": 9,
+    "endWrong": 0,
+    "hidden": 0,
+    "labelTaps": 9,
+    "bodyTaps": "27/27",
+    "overlaps": 0,
+    "setOk": true
+   }
+  }
+ }
+}

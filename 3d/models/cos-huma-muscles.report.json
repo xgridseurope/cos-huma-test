@@ -1,0 +1,94 @@
+{
+ "groups": {
+  "abdominal_C": {
+   "structures": 4
+  },
+  "altresm_C": {
+   "structures": 156
+  },
+  "besso_L": {
+   "structures": 1
+  },
+  "besso_R": {
+   "structures": 1
+  },
+  "bfem_L": {
+   "structures": 1
+  },
+  "bfem_R": {
+   "structures": 1
+  },
+  "biceps_L": {
+   "structures": 1
+  },
+  "biceps_R": {
+   "structures": 1
+  },
+  "deltoide_L": {
+   "structures": 1
+  },
+  "deltoide_R": {
+   "structures": 1
+  },
+  "dorsal_L": {
+   "structures": 1
+  },
+  "dorsal_R": {
+   "structures": 1
+  },
+  "ecm_L": {
+   "structures": 1
+  },
+  "ecm_R": {
+   "structures": 1
+  },
+  "gluti_L": {
+   "structures": 1
+  },
+  "gluti_R": {
+   "structures": 1
+  },
+  "masseter_L": {
+   "structures": 1
+  },
+  "masseter_R": {
+   "structures": 1
+  },
+  "orbic_L": {
+   "structures": 1
+  },
+  "orbic_R": {
+   "structures": 1
+  },
+  "pectoral_L": {
+   "structures": 1
+  },
+  "pectoral_R": {
+   "structures": 1
+  },
+  "quadriceps_L": {
+   "structures": 4
+  },
+  "quadriceps_R": {
+   "structures": 4
+  },
+  "tibial_L": {
+   "structures": 1
+  },
+  "tibial_R": {
+   "structures": 1
+  },
+  "trapezi_C": {
+   "structures": 1
+  },
+  "triceps_L": {
+   "structures": 1
+  },
+  "triceps_R": {
+   "structures": 1
+  }
+ },
+ "meshes": 29,
+ "totalTris": 180114,
+ "bytes": 2568552
+}

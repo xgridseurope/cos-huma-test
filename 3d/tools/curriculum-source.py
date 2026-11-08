@@ -91,6 +91,9 @@ items.append({'key': 'cara', 'term': 'cara', 'lesson': 'esquelet', 'page': 25, '
 for key, ca, es, zh, en in [('clavicula', 'clavícula', 'clavícula', '锁骨', 'collarbone'), ('altres', 'altres ossos', 'otros huesos', '其他骨', 'other bones')]:
     items.append({'key': key, 'term': key, 'lesson': 'esquelet', 'page': None, 'exam': False, 'zone': None, 'name': {'ca': ca, 'es': es, 'zh': zh, 'en': en},
         'fact': None, 'type': None, 'partOf': None, 'inActivity': {}, 'status': {'name': 'not-in-textbook'}})
+items.append({'key': 'altresm', 'term': 'altresm', 'lesson': 'musculatura', 'page': None, 'exam': False, 'zone': None,
+    'name': {'ca': 'altres músculs', 'es': 'otros músculos', 'zh': '其他肌肉', 'en': 'other muscles'},
+    'fact': None, 'type': None, 'partOf': None, 'inActivity': {}, 'status': {'name': 'not-in-textbook'}})
 out = {
  'version': '1.0', 'source': 'Medi 4t primària, unitat 2, p.25 L\'esquelet i p.27 La musculatura (photos 2026-11-08)',
  'statusLegend': {'textbook': 'read from the textbook photos: exact spelling and lower case as printed; zone from label colour',

@@ -1164,6 +1164,27 @@
    "status": {
     "name": "not-in-textbook"
    }
+  },
+  {
+   "key": "altresm",
+   "term": "altresm",
+   "lesson": "musculatura",
+   "page": null,
+   "exam": false,
+   "zone": null,
+   "name": {
+    "ca": "altres músculs",
+    "es": "otros músculos",
+    "zh": "其他肌肉",
+    "en": "other muscles"
+   },
+   "fact": null,
+   "type": null,
+   "partOf": null,
+   "inActivity": {},
+   "status": {
+    "name": "not-in-textbook"
+   }
   }
  ]
 }

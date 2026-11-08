@@ -3,7 +3,7 @@
 Fill one copy per device. Headless (emulated) results are recorded separately in the test report and must not be copied here.
 
 Device: ____________  OS version: ________  Browser + version: ________  Date: ________  Tester: ________
-URL used: https://raw.githack.com/xgridseurope/cos-huma/m1.1-test/3d/index.html
+URL used: https://xgridseurope.github.io/cos-huma-test/3d/index.html
 
 ## 0. Diagnostics (do first)
 1. Open the URL. Tap ⚙︎ (top right). Tap "▶ FPS 5 s" and keep the phone still for 5 s.
